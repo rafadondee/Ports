@@ -26,7 +26,7 @@ function Humanas() {
 
       </header>
       <a className="titulo-header" href='/'>Rafa</a>
-     <h1>Clique aqui para acessar as <br /> atividades de humanas!</h1> 
+     <h1>Clique aqui para acessar as <br /> atividades de Humanas!</h1> 
      <div class="loader">
   <div class="box1"></div>
   <div class="box2"></div>

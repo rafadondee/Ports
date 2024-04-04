@@ -25,7 +25,7 @@ function Natureza() {
 
       </header>
       <a className="titulo-header" href='/'>Rafa</a>
-     <h1>Clique nos botões para acessar<br />  as atividades de natureza!</h1> 
+     <h1>Clique nos botões para acessar<br />  as atividades de Natureza!</h1> 
      <div class="loader">
   <div class="box1"></div>
   <div class="box2"></div>

@@ -81,7 +81,7 @@ button:hover {
 
   background-color:  #efeded;  /* Adicione uma cor de fundo */
   height: 50%;
-  padding: 19%; /* Adicione espaçamento interno */
+  padding: 21%; /* Adicione espaçamento interno */
   margin-top: -166%;
 
 }
@@ -109,13 +109,12 @@ button:hover {
 
 
 
-
 .introducao h1{
   font-size: 600%;
   font-family: 'Lobster';
   margin-top: 0;
   position: absolute; /* Alterado para absolute */
-  top: 30%; /* Colocado no topo */
+  top: 25%; /* Colocado no topo */
   left: 7%; /* Colocado no lado esquerdo */
   color: rgb(26, 26, 26);
 
@@ -127,7 +126,7 @@ button:hover {
   font-family: 'Lobster';
   margin-top: 0;
   position: absolute; /* Alterado para absolute */
-  top: 150%; /* Colocado no topo */
+  top: 165%; /* Colocado no topo */
   left: 7%; /* Colocado no lado esquerdo */
   color: rgb(26, 26, 26);
 
@@ -141,7 +140,7 @@ button:hover {
   font-family: 'Lobster';
   margin-top: 0;
   position: absolute; /* Alterado para absolute */
-  top: 280%; /* Colocado no topo */
+  top: 295%; /* Colocado no topo */
   left: 7%; /* Colocado no lado esquerdo */
   color: rgb(26, 26, 26);
 
@@ -261,7 +260,7 @@ body {
   font-size: 120%;
   font-family: 'Poppins';
   position: absolute;
-  top: 95%;
+  top: 99.5%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -698,7 +697,7 @@ body {
   font-family: Poppins;
   margin-top: 23%;
   position: absolute; /* Alterado para absolute */
-  left: 20%; /* Colocado no lado esquerdo */
+  left: 17%; /* Colocado no lado esquerdo */
   background-color: #959595;
 }
 
@@ -708,7 +707,58 @@ body {
   margin-top: 13%;
   position: absolute; /* Alterado para absolute */
   top: 40%; /* Colocado no topo */
-  left: 20%; /* Colocado no lado esquerdo */
+  left: 17%; /* Colocado no lado esquerdo */
+
+
+}
+
+
+.botao-past{
+
+  border-radius: 100px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 100%;
+  font-weight: 500;
+  font-family: Poppins;
+  margin-top: 23%;
+  position: absolute; /* Alterado para absolute */
+  left: 45%; /* Colocado no lado esquerdo */
+  background-color: #959595;
+}
+
+.paragrafo-past{
+  font-size: 100%;
+  font-family: 'Poppins';
+  margin-top: 13%;
+  position: absolute; /* Alterado para absolute */
+  top: 40%; /* Colocado no topo */
+  left: 45%; /* Colocado no lado esquerdo */
+
+
+}
+
+.botao-modernismo{
+
+  border-radius: 100px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 100%;
+  font-weight: 500;
+  font-family: Poppins;
+  margin-top: 23%;
+  position: absolute; /* Alterado para absolute */
+  left: 70%; /* Colocado no lado esquerdo */
+  background-color: #959595;
+}
+
+.paragrafo-modernismo{
+  font-size: 100%;
+  font-family: 'Poppins';
+  margin-top: 13%;
+  position: absolute; /* Alterado para absolute */
+  top: 40%; /* Colocado no topo */
+  left: 70%; /* Colocado no lado esquerdo */
 
 
 }

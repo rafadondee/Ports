@@ -36,33 +36,7 @@ function Introducao() {
       </header>
       <a className="titulo-header" href='/'>Rafa</a> 
 
-    {/* Aqui está o código para os seis cards 
-     <div className="card-math" onClick={() => handleClick('/math')}>
-     <img src="" alt="" />
- Mtm
-     </div>
-      <div className="card-nature" onClick={() => handleClick('/nature')}>
-      <img src="" alt="" />
-        Natureza
-      </div>
-      <div className="card-human" onClick={() => handleClick('/human')}>
-      <img src="" alt="" />
-        Humanas
-      </div>
-      <div className="card-languages" onClick={() => handleClick('/languages')}>
-      <img src="" alt="" />
-        Linguagens
-      </div>
-      <div className="card-dev" onClick={() => handleClick('/dev')}>
-      <img src="" alt="" />
-        Projetos do Técnico
-      </div>
-      <div className="card-choose" onClick={() => handleClick('/choose')}>
-      <img src="" alt="" />
-        Projetos de Escolha
-      </div>
-      */}
-
+    
       <h1 style={{ animation: 'scaleIn 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) forwards' }}>Sobre</h1>
       <h2>Rotina</h2>
 
