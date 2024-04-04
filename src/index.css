@@ -516,8 +516,13 @@ body {
   top: 50%; /* Colocado no topo */
   left: 20%; /* Colocado no lado esquerdo */
 }
+/*video iframe mtm*/
+.video-gabigol{
 
-
+  margin-top: 13%; /* Colocado no topo */
+  margin-left: 60%; /* Colocado no lado esquerdo */
+  border: none;
+}
 
 .natureza h1 {
   font-size: 150%;
