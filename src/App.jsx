@@ -1,5 +1,7 @@
 // Importa o módulo React do pacote react
 import React from 'react';
+// Importa bootstrap para o projeto
+
 // Importa módulos específicos do pacote react-router-dom
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 // Importa o componente Home da pasta 'pages'

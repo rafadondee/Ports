@@ -20,7 +20,7 @@ function Tecnico() {
       
 
         </div>
-        <a href="/segundo.pdf" target="_blank" rel="noopener noreferrer">AV 1</a>
+    
 
       </header>
       <a className="titulo-header" href='/'>Rafa</a>

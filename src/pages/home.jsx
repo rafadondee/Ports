@@ -21,7 +21,7 @@ function home() {
       {/* Imagem */}
       <img src="https://img1.picmix.com/output/stamp/normal/2/4/6/3/2363642_4cc47.gif" alt="Gif inicial" />
       {/* Botão para navegar para a página About ao ser clicado */}
-      <button onClick={handleClick}>Let's go baby!</button>
+      <button onClick={handleClick}>Vamos lá!</button>
     </div>
   );
 }

@@ -81,8 +81,8 @@ button:hover {
 
   background-color:  #efeded;  /* Adicione uma cor de fundo */
   height: 50%;
-  padding: 21%; /* Adicione espaçamento interno */
-  margin-top: -166%;
+  padding: 20%; /* Adicione espaçamento interno */
+  transform: translateY(-180%); /* Move o elemento isolado para cima */
 
 }
 
@@ -91,9 +91,11 @@ button:hover {
   background-color:  #efeded;  /* Adicione uma cor de fundo */
   height: 50%;
   padding: 18%; /* Adicione espaçamento interno */
-  margin-top: 25%;
+  transform: translateY(-140%); /* Move o elemento para cima */
 
 }
+
+
 
 
 .container3 {
@@ -101,7 +103,7 @@ button:hover {
   background-color: #efeded; /* Adicione uma cor de fundo */
   height: 50%;
   padding: 30%; /* Adicione espaçamento interno */
-  margin-top: 24%;
+  transform: translateY(240%); /* Move o elemento isolado para cima */
 
 }
 
@@ -133,14 +135,15 @@ button:hover {
 }
 
 
+/*h1 do portfolio*/
 
 .titulo1{
 
   font-size: 600%;
   font-family: 'Lobster';
-  margin-top: 0;
+  margin-top: 0 ;
   position: absolute; /* Alterado para absolute */
-  top: 295%; /* Colocado no topo */
+  top: 280%; /* Colocado no topo */
   left: 7%; /* Colocado no lado esquerdo */
   color: rgb(26, 26, 26);
 
@@ -278,25 +281,35 @@ body {
 
 
 .botao-flecha  {
-  width: 10%; /* Garante que a imagem do botão ocupe todo o espaço disponível */
-  height:15%; /* Mantém a proporção da imagem */
+  width: 4%; /* Garante que a imagem do botão ocupe todo o espaço disponível */
+  height: 8%; /* Mantém a proporção da imagem */
   position: fixed; /* Define a posição fixa para o botão */
   bottom: 2%; /* Define a distância do botão a partir do fundo */
-  right: -1%; /* Define a distância do botão a partir da direita */
+  right: 3%; /* Define a distância do botão a partir da direita */
   cursor: pointer; /* Altera o cursor para indicar que o botão é clicável */
- 
+  border-radius:50%;
+  border: none;
+  background-color: #b6b5b5;
 
+}
+
+.botao-flecha svg{
+width: 60%;
+height: auto;
 
 }
 
 
 /*Rotina*/
 
+.rotina-h1{
+  transform: translateY(-40%); /* Move o elemento para cima */
+}
 /* styles.css */
 .rotina-table {
   width: 70%;
   height: 50%;
-  margin-top:31%;
+  transform: translateY(-335%); /* Move o elemento para cima */
   left: 15%;
   position: absolute;
   font-size: 110%;
@@ -315,27 +328,40 @@ body {
 }
 
 
- /* Carrossel */
+/* Carrossel */
+.carrossel{
+
+  transform: translateY(270%); /* Move o elemento isolado para cima */
+}
+
 
 .slick-slider {
-  /* Adicione estilos para o contêiner do carrossel */
-  margin-top: 150% ; /* Centralizar o carrossel */
-  width: 50%;
-  left: 22.5%;
+  margin-left: 25%; /* Centralizar o carrossel horizontalmente */
+  width: 50%; /* Largura do carrossel */
+  padding-left: -2%; /* Espaçamento à esquerda */
+  transform: translateY(); /* Move o elemento isolado para cima */
 
-  
+  /* Estilos adicionais conforme necessário */
 }
 
-.slick-slide img {
-  /* Definir largura máxima para as imagens dentro dos slides */
- width: 70%; /* Definir largura máxima das imagens para ocupar todo o espaço do slide */
-  height: 70%; /* Altura automática para manter a proporção */
-  left: 10%;
-  padding: 10%;
-  padding-left: 15%;
- 
-
+.slick-slide {
+  text-align: center; /* Centralizar conteúdo dentro dos slides */
+  color: #0077b5;
 }
+
+.slick-slide svg {
+  width: 70%; /* Largura máxima do ícone dentro do slide */
+  height: auto; /* Altura automática para manter a proporção */
+
+
+  background-color: #17d314; /* Cor de fundo para o círculo preto */
+  border-radius: 100%; /* Bordas arredondadas para criar um círculo */
+  display: block; /* Garante que o SVG se comporte como um bloco */
+  margin: 0 auto; /* Centralizar o SVG dentro do slide */
+}
+
+
+
 
 
 .slick-prev,
@@ -508,10 +534,23 @@ body {
   background-color: #959595;
 }
 
+
+.primeiroTrimestreMtm{
+
+  font-size: 600%;
+  font-family: 'Lobster';
+  margin-top: 0;
+  position: absolute; /* Alterado para absolute */
+  top: 25%; /* Colocado no topo */
+  left: 7%; /* Colocado no lado esquerdo */
+  color: rgb(26, 26, 26);
+}
+
+
 .paragrafo-av1Mtm{
   font-size: 100%;
   font-family: 'Poppins';
-  margin-top: 14%;
+  transform: translateY(200%);
   position: absolute; /* Alterado para absolute */
   top: 50%; /* Colocado no topo */
   left: 20%; /* Colocado no lado esquerdo */
@@ -519,17 +558,93 @@ body {
 /*video iframe mtm*/
 .video-gabigol{
 
-  margin-top: 13%; /* Colocado no topo */
+ transform: translateY(280%);
   margin-left: 60%; /* Colocado no lado esquerdo */
   border: none;
 }
 
-.natureza h1 {
-  font-size: 150%;
+/*segundo trimestre mtm*/
+
+.segundoTrimestreMtm{
+
+  font-size: 600%;
+  font-family: 'Lobster';
+  margin-top: 0;
+  position: absolute; /* Alterado para absolute */
+  top: 125%; /* Colocado no topo */
+  left: 7%; /* Colocado no lado esquerdo */
+  color: rgb(26, 26, 26);
+
+
+}
+
+.paragrafo-quebrandoAbanca{
+
+  font-size: 100%;
   font-family: 'Poppins';
-  margin-top: 5%; /* Colocado no topo */
-  margin-left: 20%; /* Colocado no lado esquerdo */
-  color: rgb(0, 0, 0);
+  transform: translateY(750%);
+  position: absolute; /* Alterado para absolute */
+  left: 20%; /* Colocado no lado esquerdo */
+
+}
+
+.botao-quebrandoAbanca{
+
+  border-radius: 100px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 100%;
+  font-weight: 500;
+  font-family: Poppins;
+  transform: translateY(2550%);
+  position: absolute; /* Alterado para absolute */
+  left: 20%; /* Colocado no lado esquerdo */
+  background-color: #959595;
+
+}
+
+.paragrafo-floripoly{
+
+  font-size: 100%;
+  font-family: 'Poppins';
+  transform: translateY(750%);
+  position: absolute; /* Alterado para absolute */
+  left: 65%; /* Colocado no lado esquerdo */
+
+}
+
+.botao-floripoly{
+
+  color: #000; /* Define a cor do texto como preto (ou a cor desejada) */
+  text-decoration: none; /* Remove o sublinhado */
+  border-radius: 100px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 100%;
+  font-weight: 500;
+  font-family: Poppins;
+  transform: translateY(2550%);
+  position: absolute; /* Alterado para absolute */
+  left: 65%; /* Colocado no lado esquerdo */
+  background-color: #959595;
+
+}
+
+.botao-floripoly:hover {
+ background-color: rgb(18, 230, 75);
+}
+
+
+/*pgn natureza*/
+
+.primeiroTrimestreNatureza {
+  font-size: 600%;
+  font-family: 'Lobster';
+  margin-top: 0;
+  position: absolute; /* Alterado para absolute */
+  top: 25%; /* Colocado no topo */
+  left: 7%; /* Colocado no lado esquerdo */
+  color: rgb(26, 26, 26);
 }
 
 .botao-organica{
@@ -540,7 +655,7 @@ body {
   font-size: 100%;
   font-weight: 500;
   font-family: Poppins;
-  margin-top: 25%;
+  margin-top: 30%;
   position: absolute; /* Alterado para absolute */
   left: 20%; /* Colocado no lado esquerdo */
   background-color: #959595;
@@ -549,7 +664,7 @@ body {
 .paragrafo-organica{
   font-size: 100%;
   font-family: 'Poppins';
-  margin-top: 13%;
+  margin-top: 18%;
   position: absolute; /* Alterado para absolute */
   top: 45%; /* Colocado no topo */
   left: 20%; /* Colocado no lado esquerdo */
@@ -563,7 +678,7 @@ body {
   font-size: 100%;
   font-weight: 500;
   font-family: Poppins;
-  margin-top: 25%;
+  margin-top: 30%;
   position: absolute; /* Alterado para absolute */
   left: 45%; /* Colocado no lado esquerdo */
   background-color: #959595;
@@ -572,7 +687,7 @@ body {
 .paragrafo-evolucionismo{
   font-size: 100%;
   font-family: 'Poppins';
-  margin-top: 13%;
+  margin-top: 18%;
   position: absolute; /* Alterado para absolute */
   top: 45%; /* Colocado no topo */
   left: 45%; /* Colocado no lado esquerdo */
@@ -586,7 +701,7 @@ body {
   font-size: 100%;
   font-weight: 500;
   font-family: Poppins;
-  margin-top: 25%;
+  margin-top: 30%;
   position: absolute; /* Alterado para absolute */
   left: 73%; /* Colocado no lado esquerdo */
   background-color: #959595;
@@ -595,19 +710,107 @@ body {
 .paragrafo-circuitos{
   font-size: 100%;
   font-family: 'Poppins';
-  margin-top: 13%;
+  margin-top: 18%;
   position: absolute; /* Alterado para absolute */
   top: 45%; /* Colocado no topo */
   left: 73%; /* Colocado no lado esquerdo */
 }
 
-/*Atividades humanas*/
-.humanas h1 {
-  font-size: 150%;
+.segundoTrimestreNatureza {
+  font-size: 600%;
+  font-family: 'Lobster';
+  margin-top: 0;
+  position: absolute; /* Alterado para absolute */
+  top: 125%; /* Colocado no topo */
+  left: 7%; /* Colocado no lado esquerdo */
+  color: rgb(26, 26, 26);
+}
+
+
+.botao-mapaMentalCircuitos{
+
+
+  color: #000; /* Define a cor do texto como preto (ou a cor desejada) */
+  text-decoration: none; /* Remove o sublinhado */
+  border-radius: 100px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 100%;
+  font-weight: 500;
+  font-family: Poppins;
+  transform: translateY(2700%);
+  position: absolute; /* Alterado para absolute */
+  left: 18%; /* Colocado no lado esquerdo */
+  background-color: #959595;
+}
+
+.botao-mapaMentalCircuitos:hover {
+  background-color:rgb(18, 230, 75);
+ }
+
+.paragrafo-mapaMentalCircuitos{
+
+  font-size: 100%;
   font-family: 'Poppins';
-  margin-top: 5%; /* Colocado no topo */
-  margin-left: 20%; /* Colocado no lado esquerdo */
-  color: rgb(0, 0, 0);
+  margin-top: 18%;
+  position: absolute; /* Alterado para absolute */
+  top: 150%; /* Colocado no topo */
+  left: 18%; /* Colocado no lado esquerdo */
+
+}
+
+
+ .botao-plastico{
+
+  border-radius: 100px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 100%;
+  font-weight: 500;
+  font-family: Poppins;
+  transform: translateY(2700%);
+  position: absolute; /* Alterado para absolute */
+  left: 45%; /* Colocado no lado esquerdo */
+  background-color: #959595;
+
+ }
+
+ .paragrafo-plastico{
+
+  font-size: 100%;
+  font-family: 'Poppins';
+  margin-top: 18%;
+  position: absolute; /* Alterado para absolute */
+  top: 150%; /* Colocado no topo */
+  left: 45%; /* Colocado no lado esquerdo */
+
+}
+
+
+
+/*Atividades humanas*/
+
+
+.primeiroTrimestreHumanas {
+  font-size: 600%;
+  font-family: 'Lobster';
+  margin-top: 0;
+  position: absolute; /* Alterado para absolute */
+  top: 25%; /* Colocado no topo */
+  left: 7%; /* Colocado no lado esquerdo */
+  color: rgb(26, 26, 26);
+}
+
+.segundoTrimestreHumanas{
+
+  font-size: 600%;
+  font-family: 'Lobster';
+  margin-top: 0;
+  position: absolute; /* Alterado para absolute */
+  top: 125%; /* Colocado no topo */
+  left: 7%; /* Colocado no lado esquerdo */
+  color: rgb(26, 26, 26);
+
 }
 
 
@@ -619,7 +822,7 @@ body {
   font-size: 100%;
   font-weight: 500;
   font-family: Poppins;
-  margin-top: 25%;
+  margin-top: 30%;
   position: absolute; /* Alterado para absolute */
   left: 20%; /* Colocado no lado esquerdo */
   background-color: #959595;
@@ -630,7 +833,7 @@ body {
   font-family: 'Poppins';
   margin-top: 13%;
   position: absolute; /* Alterado para absolute */
-  top: 45%; /* Colocado no topo */
+  top: 55%; /* Colocado no topo */
   left: 20%; /* Colocado no lado esquerdo */
 }
 
@@ -642,7 +845,7 @@ body {
   font-size: 100%;
   font-weight: 500;
   font-family: Poppins;
-  margin-top: 25%;
+  margin-top: 30%;
   position: absolute; /* Alterado para absolute */
   left: 44%; /* Colocado no lado esquerdo */
   background-color: #959595;
@@ -653,7 +856,7 @@ body {
   font-family: 'Poppins';
   margin-top: 13%;
   position: absolute; /* Alterado para absolute */
-  top: 45%; /* Colocado no topo */
+  top: 55%; /* Colocado no topo */
   left: 44%; /* Colocado no lado esquerdo */
 }
 
@@ -665,30 +868,114 @@ body {
   font-size: 100%;
   font-weight: 500;
   font-family: Poppins;
-  margin-top: 25%;
+  margin-top: 30%;
   position: absolute; /* Alterado para absolute */
   left: 72%; /* Colocado no lado esquerdo */
   background-color: #959595;
 }
+
+.botao-imperialismo:hover {
+  background-color:rgb(18, 230, 75);
+ }
 
 .paragrafo-imperialismo{
   font-size: 100%;
   font-family: 'Poppins';
   margin-top: 13%;
   position: absolute; /* Alterado para absolute */
-  top: 45%; /* Colocado no topo */
+  top: 55%; /* Colocado no topo */
   left: 72%; /* Colocado no lado esquerdo */
 }
+
+.botao-totalitarismo{
+
+
+  color: #000; /* Define a cor do texto como preto (ou a cor desejada) */
+  text-decoration: none; /* Remove o sublinhado */
+  border-radius: 100px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 100%;
+  font-weight: 500;
+  font-family: Poppins;
+  transform: translateY(2700%);
+  position: absolute; /* Alterado para absolute */
+  left: 18%; /* Colocado no lado esquerdo */
+  background-color: #959595;
+}
+
+
+.paragrafo-totalitarismo{
+
+  font-size: 100%;
+  font-family: 'Poppins';
+  margin-top: 18%;
+  position: absolute; /* Alterado para absolute */
+  top: 150%; /* Colocado no topo */
+  left: 18%; /* Colocado no lado esquerdo */
+
+}
+
+
+ .botao-urbanismo{
+
+  color: #000; /* Define a cor do texto como preto (ou a cor desejada) */
+  text-decoration: none; /* Remove o sublinhado */
+  border-radius: 100px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 100%;
+  font-weight: 500;
+  font-family: Poppins;
+  transform: translateY(2700%);
+  position: absolute; /* Alterado para absolute */
+  left: 45%; /* Colocado no lado esquerdo */
+  background-color: #959595;
+
+ }
+
+ .botao-urbanismo:hover {
+  background-color:rgb(18, 230, 75);
+ }
+
+ .paragrafo-urbanismo{
+
+  font-size: 100%;
+  font-family: 'Poppins';
+  margin-top: 18%;
+  position: absolute; /* Alterado para absolute */
+  top: 150%; /* Colocado no topo */
+  left: 45%; /* Colocado no lado esquerdo */
+
+}
+
+
+
+
 
 
 /*Atividade linguagens*/
 
-.linguagens h1 {
-  font-size: 150%;
-  font-family: 'Poppins';
-  margin-top: 5%; /* Colocado no topo */
-  margin-left: 20%; /* Colocado no lado esquerdo */
-  color: rgb(0, 0, 0);
+.primeiroTrimestreLinguagens {
+  font-size: 600%;
+  font-family: 'Lobster';
+  margin-top: 0;
+  position: absolute; /* Alterado para absolute */
+  top: 25%; /* Colocado no topo */
+  left: 7%; /* Colocado no lado esquerdo */
+  color: rgb(26, 26, 26);
+}
+
+.segundoTrimestreLinguagens{
+
+  font-size: 600%;
+  font-family: 'Lobster';
+  margin-top: 0;
+  position: absolute; /* Alterado para absolute */
+  top: 125%; /* Colocado no topo */
+  left: 7%; /* Colocado no lado esquerdo */
+  color: rgb(26, 26, 26);
+
 }
 
 
@@ -700,7 +987,7 @@ body {
   font-size: 100%;
   font-weight: 500;
   font-family: Poppins;
-  margin-top: 23%;
+  margin-top: 30%;
   position: absolute; /* Alterado para absolute */
   left: 17%; /* Colocado no lado esquerdo */
   background-color: #959595;
@@ -711,7 +998,7 @@ body {
   font-family: 'Poppins';
   margin-top: 13%;
   position: absolute; /* Alterado para absolute */
-  top: 40%; /* Colocado no topo */
+  top: 55%; /* Colocado no topo */
   left: 17%; /* Colocado no lado esquerdo */
 
 
@@ -726,7 +1013,7 @@ body {
   font-size: 100%;
   font-weight: 500;
   font-family: Poppins;
-  margin-top: 23%;
+  margin-top: 30%;
   position: absolute; /* Alterado para absolute */
   left: 45%; /* Colocado no lado esquerdo */
   background-color: #959595;
@@ -737,7 +1024,7 @@ body {
   font-family: 'Poppins';
   margin-top: 13%;
   position: absolute; /* Alterado para absolute */
-  top: 40%; /* Colocado no topo */
+  top: 55%; /* Colocado no topo */
   left: 45%; /* Colocado no lado esquerdo */
 
 
@@ -751,7 +1038,7 @@ body {
   font-size: 100%;
   font-weight: 500;
   font-family: Poppins;
-  margin-top: 23%;
+  margin-top: 30%;
   position: absolute; /* Alterado para absolute */
   left: 70%; /* Colocado no lado esquerdo */
   background-color: #959595;
@@ -762,11 +1049,40 @@ body {
   font-family: 'Poppins';
   margin-top: 13%;
   position: absolute; /* Alterado para absolute */
-  top: 40%; /* Colocado no topo */
+  top: 55%; /* Colocado no topo */
   left: 70%; /* Colocado no lado esquerdo */
+}
 
+
+.botao-notaRedacao{
+
+  border-radius: 100px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 100%;
+  font-weight: 500;
+  font-family: Poppins;
+  transform: translateY(2700%);
+  position: absolute; /* Alterado para absolute */
+  left: 18%; /* Colocado no lado esquerdo */
+  background-color: #959595;
+}
+
+
+.paragrafo-notaRedacao{
+
+  font-size: 100%;
+  font-family: 'Poppins';
+  margin-top: 18%;
+  position: absolute; /* Alterado para absolute */
+  top: 150%; /* Colocado no topo */
+  left: 18%; /* Colocado no lado esquerdo */
 
 }
+
+
+/*pgn do técnico */
+
 
 .tecnico h1 {
   font-size: 150%;
@@ -776,13 +1092,124 @@ body {
   color: rgb(0, 0, 0);
 }
 
-.escolha h1 {
-  font-size: 150%;
-  font-family: 'Poppins';
-  margin-top: 5%; /* Colocado no topo */
-  margin-left: 20%; /* Colocado no lado esquerdo */
-  color: rgb(0, 0, 0);
+
+
+
+/*pgn de escolha */
+
+.escolhaPrimeiroTrimestre{
+  font-size: 600%;
+  font-family: 'Lobster';
+  margin-top: 0;
+  position: absolute; /* Alterado para absolute */
+  top: 25%; /* Colocado no topo */
+  left: 7%; /* Colocado no lado esquerdo */
+  color: rgb(26, 26, 26);
 }
+
+.botao-naturezaElotromagnetismo{
+
+  border-radius: 100px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 100%;
+  font-weight: 500;
+  font-family: Poppins;
+  margin-top: 30%;
+  position: absolute; /* Alterado para absolute */
+  left: 20%; /* Colocado no lado esquerdo */
+  background-color: #959595;
+
+}
+
+.paragrafo-naturezaEletromagnetismo{
+  font-size: 100%;
+  font-family: 'Poppins';
+  margin-top: 18%;
+  position: absolute; /* Alterado para absolute */
+  top: 45%; /* Colocado no topo */
+  left: 20%; /* Colocado no lado esquerdo */
+
+}
+
+/*pgn ppe*/
+
+.ppe-segundoTrimestre{
+
+  font-size: 600%;
+  font-family: 'Lobster';
+  margin-top: 0;
+  position: absolute; /* Alterado para absolute */
+  top: 25%; /* Colocado no topo */
+  left: 7%; /* Colocado no lado esquerdo */
+  color: rgb(26, 26, 26);
+  
+}
+
+.botao-certificadoLinguagensPpe{
+
+
+  color: #000; /* Define a cor do texto como preto (ou a cor desejada) */
+  text-decoration: none; /* Remove o sublinhado */
+  border-radius: 100px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 100%;
+  font-weight: 500;
+  font-family: Poppins;
+  transform: translateY(995%);
+  position: absolute; /* Alterado para absolute */
+  left: 18%; /* Colocado no lado esquerdo */
+  background-color: #959595;
+}
+
+.botao-certificadoLinguagensPpe:hover {
+  background-color: rgb(18, 230, 75);
+ }
+
+.paragrafo-certificadoLinguagensPpe{
+
+  font-size: 100%;
+  font-family: 'Poppins';
+  margin-top: 18%;
+  position: absolute; /* Alterado para absolute */
+  top: 45%; /* Colocado no topo */
+  left: 18%; /* Colocado no lado esquerdo */
+
+}
+
+
+.botao-certificadoNaturezaPpe{
+
+  color: #000; /* Define a cor do texto como preto (ou a cor desejada) */
+  text-decoration: none; /* Remove o sublinhado */
+  border-radius: 100px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 100%;
+  font-weight: 500;
+  font-family: Poppins;
+  margin-top: 29%;
+  position: absolute; /* Alterado para absolute */
+  left: 65%; /* Colocado no lado esquerdo */
+  background-color: #959595;
+}
+
+.botao-certificadoNaturezaPpe:hover {
+  background-color: rgb(18, 230, 75);
+ }
+
+
+.paragrafo-certificadoNaturezaPpe{
+  font-size: 100%;
+  font-family: 'Poppins';
+  margin-top: 18%;
+  position: absolute; /* Alterado para absolute */
+  top: 45%; /* Colocado no topo */
+  left: 65%; /* Colocado no lado esquerdo */
+}
+
+
 
 
 .loader {
