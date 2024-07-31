@@ -582,7 +582,7 @@ height: auto;
 
   font-size: 100%;
   font-family: 'Poppins';
-  transform: translateY(750%);
+  transform: translateY(740%);
   position: absolute; /* Alterado para absolute */
   left: 20%; /* Colocado no lado esquerdo */
 
@@ -607,7 +607,7 @@ height: auto;
 
   font-size: 100%;
   font-family: 'Poppins';
-  transform: translateY(750%);
+  transform: translateY(740%);
   position: absolute; /* Alterado para absolute */
   left: 65%; /* Colocado no lado esquerdo */
 
@@ -738,7 +738,7 @@ height: auto;
   font-size: 100%;
   font-weight: 500;
   font-family: Poppins;
-  transform: translateY(2700%);
+  transform: translateY(2300%);
   position: absolute; /* Alterado para absolute */
   left: 18%; /* Colocado no lado esquerdo */
   background-color: #959595;
@@ -768,7 +768,7 @@ height: auto;
   font-size: 100%;
   font-weight: 500;
   font-family: Poppins;
-  transform: translateY(2700%);
+  transform: translateY(2300%);
   position: absolute; /* Alterado para absolute */
   left: 45%; /* Colocado no lado esquerdo */
   background-color: #959595;
@@ -1062,7 +1062,7 @@ height: auto;
   font-size: 100%;
   font-weight: 500;
   font-family: Poppins;
-  transform: translateY(2700%);
+  transform: translateY(2300%);
   position: absolute; /* Alterado para absolute */
   left: 18%; /* Colocado no lado esquerdo */
   background-color: #959595;
@@ -1148,7 +1148,6 @@ height: auto;
 
 .botao-certificadoLinguagensPpe{
 
-
   color: #000; /* Define a cor do texto como preto (ou a cor desejada) */
   text-decoration: none; /* Remove o sublinhado */
   border-radius: 100px;
@@ -1157,7 +1156,7 @@ height: auto;
   font-size: 100%;
   font-weight: 500;
   font-family: Poppins;
-  transform: translateY(995%);
+  margin-top: 29%;
   position: absolute; /* Alterado para absolute */
   left: 18%; /* Colocado no lado esquerdo */
   background-color: #959595;
