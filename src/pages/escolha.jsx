@@ -25,7 +25,8 @@ function Escolha() {
 
       </header>
       <a className="titulo-header" href='/'>Rafa</a>
-     <h1 className='escolhaPrimeiroTrimestre' style={{ animation: 'scaleIn 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) forwards' }}>Segundo Trimestre </h1> 
+     <h1 className='primeiroTrimestreHumanas' style={{ animation: 'scaleIn 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) forwards' }}>Primeiro Trimestre</h1  >
+      <h2 className='segundoTrimestreHumanas' >Segundo Trimestre</h2>
 
      <p className='paragrafo-naturezaEletromagnetismo'>Essa atividade de Ciências da Natureza<br /> teve como objetivo a criação de um<br /> cartaz explicando o magnetismo solar,<br /> terrestre e como e por quê<br /> acontecem as auroras polares.<br />
 Contemplou a habilidade H36. </p>

@@ -1,5 +1,3 @@
-
-
 .home h1 {
   font-size: 700%;
   font-family: 'Lobster';
@@ -738,7 +736,7 @@ height: auto;
   font-size: 100%;
   font-weight: 500;
   font-family: Poppins;
-  transform: translateY(2300%);
+  margin-top: 80%;
   position: absolute; /* Alterado para absolute */
   left: 18%; /* Colocado no lado esquerdo */
   background-color: #959595;
@@ -768,7 +766,7 @@ height: auto;
   font-size: 100%;
   font-weight: 500;
   font-family: Poppins;
-  transform: translateY(2300%);
+  margin-top: 80%;
   position: absolute; /* Alterado para absolute */
   left: 45%; /* Colocado no lado esquerdo */
   background-color: #959595;
@@ -975,6 +973,7 @@ height: auto;
   top: 125%; /* Colocado no topo */
   left: 7%; /* Colocado no lado esquerdo */
   color: rgb(26, 26, 26);
+  
 
 }
 
@@ -1062,7 +1061,7 @@ height: auto;
   font-size: 100%;
   font-weight: 500;
   font-family: Poppins;
-  transform: translateY(2300%);
+  transform: translateY(2600%);
   position: absolute; /* Alterado para absolute */
   left: 18%; /* Colocado no lado esquerdo */
   background-color: #959595;
@@ -1073,7 +1072,7 @@ height: auto;
 
   font-size: 100%;
   font-family: 'Poppins';
-  margin-top: 18%;
+  margin-top: 15%;
   position: absolute; /* Alterado para absolute */
   top: 150%; /* Colocado no topo */
   left: 18%; /* Colocado no lado esquerdo */
@@ -1081,16 +1080,293 @@ height: auto;
 }
 
 
+
+
 /*pgn do técnico */
 
 
-.tecnico h1 {
-  font-size: 150%;
-  font-family: 'Poppins';
-  margin-top: 5%; /* Colocado no topo */
-  margin-left: 20%; /* Colocado no lado esquerdo */
-  color: rgb(0, 0, 0);
+/*parte de modelagem de sistemas */
+
+.modelagemDeSistemas  {
+
+  font-size: 600%;
+  font-family: 'Lobster';
+  margin-top: 0;
+  position: absolute; /* Alterado para absolute */
+  top: 25%; /* Colocado no topo */
+  left: 7%; /* Colocado no lado esquerdo */
+  color: rgb(26, 26, 26);
 }
+
+.botao-salaDeAulaInvertida{
+
+
+  border-radius: 100px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 100%;
+  font-weight: 500;
+  font-family: Poppins;
+  margin-top: 30%;
+  position: absolute; /* Alterado para absolute */
+  left: 11%; /* Colocado no lado esquerdo */
+  background-color: #959595;
+
+}
+
+.paragrafo-salaDeAulaInvertida{
+
+  font-size: 100%;
+  font-family: 'Poppins';
+  margin-top: 18%;
+  position: absolute; /* Alterado para absolute */
+  top: 45%; /* Colocado no topo */
+  left: 10%; /* Colocado no lado esquerdo */
+
+}
+
+
+.botao-wireframe{
+
+  color: #000; /* Define a cor do texto como preto (ou a cor desejada) */
+  text-decoration: none; /* Remove o sublinhado */
+  border-radius: 100px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 100%;
+  font-weight: 500;
+  font-family: Poppins;
+  margin-top: 30%;
+  position: absolute; /* Alterado para absolute */
+  left: 74%; /* Colocado no lado esquerdo */
+  background-color: #959595;
+}
+
+.botao-wireframe:hover {
+  background-color:rgb(18, 230, 75);
+ }
+
+ .paragrafo-wireframe{
+
+  font-size: 100%;
+  font-family: 'Poppins';
+  margin-top: 18%;
+  position: absolute; /* Alterado para absolute */
+  top: 45%; /* Colocado no topo */
+  left: 72.5%; /* Colocado no lado esquerdo */
+
+}
+
+
+
+.botao-regrasDeNegocio{
+
+  color: #000; /* Define a cor do texto como preto (ou a cor desejada) */
+  text-decoration: none; /* Remove o sublinhado */
+  border-radius: 100px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 100%;
+  font-weight: 500;
+  font-family: Poppins;
+  margin-top: 30%;
+  position: absolute; /* Alterado para absolute */
+  left: 41%; /* Colocado no lado esquerdo */
+  background-color: #959595;
+}
+
+.botao-regrasDeNegocio:hover {
+  background-color:rgb(18, 230, 75);
+ }
+
+
+ .paragrafo-regrasDeNegocio{
+
+  font-size: 100%;
+  font-family: 'Poppins';
+  margin-top: 18%;
+  position: absolute; /* Alterado para absolute */
+  top: 45%; /* Colocado no topo */
+  left: 40%; /* Colocado no lado esquerdo */
+}
+
+
+.botao-modelagemConsultorio{
+
+  border-radius: 100px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 100%;
+  font-weight: 500;
+  font-family: Poppins;
+  margin-top: 78%;
+  position: absolute; /* Alterado para absolute */
+  left: 10%; /* Colocado no lado esquerdo */
+  background-color: #959595;
+
+}
+
+
+.paragrafo-modelagemConsultorio{
+
+  font-size: 100%;
+  font-family: 'Poppins';
+  margin-top: 66%;
+  position: absolute; /* Alterado para absolute */
+  top: 45%; /* Colocado no topo */
+  left: 10%; /* Colocado no lado esquerdo */
+
+}
+
+
+
+/*parte de banco de dados */
+
+.bancoDeDados{
+
+  font-size: 600%;
+  font-family: 'Lobster';
+  margin-top: 0;
+  position: absolute; /* Alterado para absolute */
+  top: 125%; /* Colocado no topo */
+  left: 7%; /* Colocado no lado esquerdo */
+  color: rgb(26, 26, 26);
+}
+
+
+.botao-listaModeloLogico{
+
+  border-radius: 100px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 100%;
+  font-weight: 500;
+  font-family: Poppins;
+  margin-top: 78%;
+  position: absolute; /* Alterado para absolute */
+  left: 42%; /* Colocado no lado esquerdo */
+  background-color: #959595;
+
+}
+
+.paragrafo-listaModeloLogico{
+
+  font-size: 100%;
+  font-family: 'Poppins';
+  margin-top: 66%;
+  position: absolute; /* Alterado para absolute */
+  top: 45%; /* Colocado no topo */
+  left: 40%; /* Colocado no lado esquerdo */
+
+}
+
+.botao-simuladoSaep{
+
+  color: #000; /* Define a cor do texto como preto (ou a cor desejada) */
+  text-decoration: none; /* Remove o sublinhado */
+  border-radius: 100px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 100%;
+  font-weight: 500;
+  font-family: Poppins;
+  margin-top: 78%;
+  position: absolute; /* Alterado para absolute */
+  left: 73%; /* Colocado no lado esquerdo */
+  background-color: #959595;
+}
+
+.botao-simuladoSaep:hover {
+  background-color:rgb(18, 230, 75);
+ }
+
+ .paragrafo-simuladoSaep{
+
+  font-size: 100%;
+  font-family: 'Poppins';
+  margin-top: 66%;
+  position: absolute; /* Alterado para absolute */
+  top: 45%; /* Colocado no topo */
+  left: 72%; /* Colocado no lado esquerdo */
+
+
+ }
+
+
+
+/*parte de desenvolvimento de sistemas */
+
+.desenvolvimentoDeSistemas{
+
+  font-size: 600%;
+  font-family: 'Lobster';
+  margin-top: 0;
+  position: absolute; /* Alterado para absolute */
+  top: 235%; /* Colocado no topo */
+  left: 7%; /* Colocado no lado esquerdo */
+  color: rgb(26, 26, 26);
+}
+
+.botao-calculadoraDeHoras{
+
+  
+  color: #000; /* Define a cor do texto como preto (ou a cor desejada) */
+  text-decoration: none; /* Remove o sublinhado */
+  border-radius: 100px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 100%;
+  font-weight: 500;
+  font-family: Poppins;
+  margin-top: 130%;
+  position: absolute; /* Alterado para absolute */
+  left: 10%; /* Colocado no lado esquerdo */
+  background-color: #959595;
+}
+
+.botao-calculadoraDeHoras:hover {
+  background-color:rgb(18, 230, 75);
+ }
+
+ .paragrafo-calculadoraDeHoras{
+
+  font-size: 100%;
+  font-family: 'Poppins';
+  margin-top: 140%;
+  position: absolute; /* Alterado para absolute */
+  top: 100%; /* Colocado no topo */
+  left: 10%; /* Colocado no lado esquerdo */
+
+}
+
+
+  
+
+
+
+
+
+
+
+/*parte de implantação de sistemas */
+
+.implantacaoDeSistemas{
+
+
+  font-size: 600%;
+  font-family: 'Lobster';
+  margin-top: 0;
+  position: absolute; /* Alterado para absolute */
+  top: 340%; /* Colocado no topo */
+  left: 7%; /* Colocado no lado esquerdo */
+  color: rgb(26, 26, 26);
+}
+
+
+
+
+
+
 
 
 
