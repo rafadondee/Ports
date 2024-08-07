@@ -896,8 +896,9 @@ height: auto;
   font-size: 100%;
   font-weight: 500;
   font-family: Poppins;
-  transform: translateY(2700%);
+  margin-top: 58%;
   position: absolute; /* Alterado para absolute */
+  top: 50%; /* Colocado no topo */
   left: 18%; /* Colocado no lado esquerdo */
   background-color: #959595;
 }
@@ -925,8 +926,9 @@ height: auto;
   font-size: 100%;
   font-weight: 500;
   font-family: Poppins;
-  transform: translateY(2700%);
+  margin-top: 58%;
   position: absolute; /* Alterado para absolute */
+  top: 50%; /* Colocado no topo */
   left: 45%; /* Colocado no lado esquerdo */
   background-color: #959595;
 
@@ -1061,7 +1063,8 @@ height: auto;
   font-size: 100%;
   font-weight: 500;
   font-family: Poppins;
-  transform: translateY(2600%);
+  margin-top: 55%;
+  top: 50%; /* Colocado no topo */
   position: absolute; /* Alterado para absolute */
   left: 18%; /* Colocado no lado esquerdo */
   background-color: #959595;
@@ -1260,7 +1263,7 @@ height: auto;
 
 }
 
-.botao-simuladoSaep{
+.botao-normalizacaoDeDados{
 
   color: #000; /* Define a cor do texto como preto (ou a cor desejada) */
   text-decoration: none; /* Remove o sublinhado */
@@ -1272,15 +1275,11 @@ height: auto;
   font-family: Poppins;
   margin-top: 78%;
   position: absolute; /* Alterado para absolute */
-  left: 73%; /* Colocado no lado esquerdo */
+  left: 71%; /* Colocado no lado esquerdo */
   background-color: #959595;
 }
 
-.botao-simuladoSaep:hover {
-  background-color:rgb(18, 230, 75);
- }
-
- .paragrafo-simuladoSaep{
+ .paragrafo-normalizacaoDeDados{
 
   font-size: 100%;
   font-family: 'Poppins';
@@ -1320,7 +1319,7 @@ height: auto;
   font-family: Poppins;
   margin-top: 130%;
   position: absolute; /* Alterado para absolute */
-  left: 10%; /* Colocado no lado esquerdo */
+  left: 5%; /* Colocado no lado esquerdo */
   background-color: #959595;
 }
 
@@ -1332,16 +1331,104 @@ height: auto;
 
   font-size: 100%;
   font-family: 'Poppins';
-  margin-top: 140%;
+  margin-top: 133%;
   position: absolute; /* Alterado para absolute */
-  top: 100%; /* Colocado no topo */
-  left: 10%; /* Colocado no lado esquerdo */
+  left: 5%; /* Colocado no lado esquerdo */
+
+}
+
+.botao-apiGithub{
+
+  
+  color: #000; /* Define a cor do texto como preto (ou a cor desejada) */
+  text-decoration: none; /* Remove o sublinhado */
+  border-radius: 100px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 100%;
+  font-weight: 500;
+  font-family: Poppins;
+  margin-top: 130%;
+  position: absolute; /* Alterado para absolute */
+  left: 31%; /* Colocado no lado esquerdo */
+  background-color: #959595;
+}
+
+
+.botao-apiGithub:hover {
+  background-color:rgb(18, 230, 75);
+ }
+
+ .paragrafo-apiGithub{
+
+  font-size: 100%;
+  font-family: 'Poppins'; 
+  margin-top: 133%;
+  position: absolute; /* Alterado para absolute */
+  left: 31%; /* Colocado no lado esquerdo */
+
+}
+  
+
+.botao-trabalhoApi{
+
+  
+  color: #000; /* Define a cor do texto como preto (ou a cor desejada) */
+  text-decoration: none; /* Remove o sublinhado */
+  border-radius: 100px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 100%;
+  font-weight: 500;
+  font-family: Poppins;
+  margin-top: 130%;
+  position: absolute; /* Alterado para absolute */
+  left: 56%; /* Colocado no lado esquerdo */
+  background-color: #959595;
+}
+
+ .paragrafo-trabalhoApi{
+
+  font-size: 100%;
+  font-family: 'Poppins'; 
+  margin-top: 133%;
+  position: absolute; /* Alterado para absolute */
+  left: 56%; /* Colocado no lado esquerdo */
 
 }
 
 
-  
+.botao-projetoBiblioteca{
 
+  
+  color: #000; /* Define a cor do texto como preto (ou a cor desejada) */
+  text-decoration: none; /* Remove o sublinhado */
+  border-radius: 100px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 100%;
+  font-weight: 500;
+  font-family: Poppins;
+  margin-top: 130%;
+  position: absolute; /* Alterado para absolute */
+  left: 80%; /* Colocado no lado esquerdo */
+  background-color: #959595;
+}
+
+
+.botao-projetoBiblioteca:hover {
+  background-color:rgb(18, 230, 75);
+ }
+
+ .paragrafo-projetoBiblioteca{
+
+  font-size: 100%;
+  font-family: 'Poppins'; 
+  margin-top: 133%;
+  position: absolute; /* Alterado para absolute */
+  left: 80%; /* Colocado no lado esquerdo */
+
+}
 
 
 
@@ -1361,6 +1448,33 @@ height: auto;
   left: 7%; /* Colocado no lado esquerdo */
   color: rgb(26, 26, 26);
 }
+
+.botao-sistemaCms{
+
+  border-radius: 100px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 100%;
+  font-weight: 500;
+  font-family: Poppins;
+  margin-top: 183%;
+  position: absolute; /* Alterado para absolute */
+  left: 10%; /* Colocado no lado esquerdo */
+  background-color: #959595;
+
+}
+
+
+.paragrafo-sistemaCms{
+
+  font-size: 100%;
+  font-family: 'Poppins';
+  margin-top: 187%;
+  position: absolute; /* Alterado para absolute */
+  left: 10%; /* Colocado no lado esquerdo */
+
+}
+
 
 
 
@@ -1769,6 +1883,7 @@ height: auto;
 .social-buttons svg {
   transition: 0.3s;
   height: 20px;
+
 }
 
 
@@ -1800,6 +1915,7 @@ height: auto;
 
 .instagram {
   background-color: #c13584;
+
 }
 
 .instagram svg {

@@ -22,9 +22,13 @@ function Tecnico() {
           <a className="botao-regrasDeNegocio" href="https://docs.google.com/spreadsheets/d/1MOYsL-Venk8RNgr8zlgpbkRq69sUTT7NGieRT_M7bek/edit?usp=sharing" target="_blank">Regras de Negócio</a>
           <button className="botao-modelagemConsultorio" onClick={() => window.open('/Modelagem consultório médico.pdf', '_blank')}>Modelagem Consultório</button>
           <button className="botao-listaModeloLogico" onClick={() => window.open('/Cópia de Lista Exercícios -Modelo Lógico.pdf', '_blank')}>Lista de Exercícios</button>
-          <a className="botao-simuladoSaep" href=" " target="_blank"> Simulado SAEP</a>
+          <button className="botao-normalizacaoDeDados" onClick={() => window.open('/.pdf', '_blank')}>Normalização de Dados</button>
           <a className="botao-calculadoraDeHoras" href=" https://github.com/rafadondee/Calculadora " target="_blank"> Calculadora de Horas</a>
-          <a className="botao-ApiGithub" href=" https://github.com/rafadondee/API-GITHUB " target="_blank"> API Github</a>
+          <a className="botao-apiGithub" href=" https://github.com/rafadondee/API-GITHUB " target="_blank"> API Github</a>
+          <button className="botao-trabalhoApi" onClick={() => window.open('/API Trabalho.pdf', '_blank')}>Trabalho API</button>
+          <a className="botao-projetoBiblioteca" href=" https://github.com/rafadondee/biblio-front " target="_blank"> Projeto Biblioteca</a>
+          <button className="botao-sistemaCms" onClick={() => window.open('/Cópia de Cenario_1 - Atividade 1.pdf', '_blank')}>Sistema CMS</button>
+
 
         </div>
     
@@ -46,7 +50,16 @@ function Tecnico() {
  </p>
  <p className='paragrafo-listaModeloLogico'>Esta atividade do 2° Trimestre <br /> teve como objetivo realizar <br /> uma lista de exercícios do  <br />  modelo lógico, sabendo aplicar <br /> as ideias de relacionamentos <br /> e entidades aprendidas em sala. <br /> Contemplou a H1 e H2.
  </p>
- <p className='paragrafo-simuladoSaep'>Esta atividade do 3° Trimestre <br /> ainda não foi realizada.</p>
+ <p className='paragrafo-normalizacaoDeDados'>Esta atividade do 2° Trimestre <br />  teve como objetivo responder <br /> uma lista com perguntas <br /> sobre normalização de dados, <br /> explicando seus conceitos <br /> e citando exemplos. <br /> Contemplou a H3. </p>
+
+
+ <p className='paragrafo-calculadoraDeHoras '>Esta atividade do 1° Trimestre <br />  teve como objetivo criar <br /> uma calculadora de horas, <br /> ou seja, um sistema que <br /> realizasse cálculos das <br /> horas e minutos. </p>
+ <p className='paragrafo-apiGithub' >Esta atividade do 1° Trimestre <br />  teve como objetivo criar <br /> uma API contendo hyperlinks <br /> que levassem para páginas <br /> do nosso próprio Github. <br /> Contemplou a H3, H4, H5, <br /> H6, H9 e H10. </p>
+ <p className='paragrafo-trabalhoApi '>Esta atividade do 1° Trimestre <br />  teve como objetivo apresentar <br /> algumas das principais <br /> carcaterísticas de uma API <br /> explicando seus conceitos <br /> e citando exemplos. <br /> Contemplou a H3, H4, H5, <br /> H6, H9 e H10.  </p>
+ <p className='paragrafo-projetoBiblioteca'>Esta atividade do 2° Trimestre <br />  teve como objetivo criar <br /> um sistema bibliotecário <br /> que permitisse o cadastro  <br /> ou devolução de livros. <br /> Fizemos funções para a <br /> bibliotecária e para<br />o estudante.<br /> </p>
+
+
+ <p className='paragrafo-sistemaCms'>Esta atividade do 1° Trimestre <br />  teve como objetivo encontrar <br /> uma série de imformações <br /> em um site e registrar o que  <br /> foi encontrado em um documento. </p>
 
 
 
