@@ -1063,8 +1063,12 @@ height: auto;
   font-size: 100%;
   font-weight: 500;
   font-family: Poppins;
+<<<<<<< HEAD
   margin-top: 55%;
   top: 50%; /* Colocado no topo */
+=======
+  transform: translateY(2600%);
+>>>>>>> 745b9967a58d3cf7b4cd9e7db4fc0086c32dff3a
   position: absolute; /* Alterado para absolute */
   left: 18%; /* Colocado no lado esquerdo */
   background-color: #959595;
@@ -1088,8 +1092,11 @@ height: auto;
 /*pgn do técnico */
 
 
+<<<<<<< HEAD
 /*parte de modelagem de sistemas */
 
+=======
+>>>>>>> 745b9967a58d3cf7b4cd9e7db4fc0086c32dff3a
 .modelagemDeSistemas  {
 
   font-size: 600%;
@@ -1112,7 +1119,11 @@ height: auto;
   font-family: Poppins;
   margin-top: 30%;
   position: absolute; /* Alterado para absolute */
+<<<<<<< HEAD
   left: 11%; /* Colocado no lado esquerdo */
+=======
+  left: 10%; /* Colocado no lado esquerdo */
+>>>>>>> 745b9967a58d3cf7b4cd9e7db4fc0086c32dff3a
   background-color: #959595;
 
 }
@@ -1141,11 +1152,19 @@ height: auto;
   font-family: Poppins;
   margin-top: 30%;
   position: absolute; /* Alterado para absolute */
+<<<<<<< HEAD
   left: 74%; /* Colocado no lado esquerdo */
   background-color: #959595;
 }
 
 .botao-wireframe:hover {
+=======
+  left: 53%; /* Colocado no lado esquerdo */
+  background-color: #959595;
+}
+
+.botao-wireframe :hover {
+>>>>>>> 745b9967a58d3cf7b4cd9e7db4fc0086c32dff3a
   background-color:rgb(18, 230, 75);
  }
 
@@ -1156,7 +1175,11 @@ height: auto;
   margin-top: 18%;
   position: absolute; /* Alterado para absolute */
   top: 45%; /* Colocado no topo */
+<<<<<<< HEAD
   left: 72.5%; /* Colocado no lado esquerdo */
+=======
+  left: 30%; /* Colocado no lado esquerdo */
+>>>>>>> 745b9967a58d3cf7b4cd9e7db4fc0086c32dff3a
 
 }
 
@@ -1174,7 +1197,11 @@ height: auto;
   font-family: Poppins;
   margin-top: 30%;
   position: absolute; /* Alterado para absolute */
+<<<<<<< HEAD
   left: 41%; /* Colocado no lado esquerdo */
+=======
+  left: 30%; /* Colocado no lado esquerdo */
+>>>>>>> 745b9967a58d3cf7b4cd9e7db4fc0086c32dff3a
   background-color: #959595;
 }
 
@@ -1190,7 +1217,12 @@ height: auto;
   margin-top: 18%;
   position: absolute; /* Alterado para absolute */
   top: 45%; /* Colocado no topo */
+<<<<<<< HEAD
   left: 40%; /* Colocado no lado esquerdo */
+=======
+  left: 51%; /* Colocado no lado esquerdo */
+
+>>>>>>> 745b9967a58d3cf7b4cd9e7db4fc0086c32dff3a
 }
 
 
@@ -1202,9 +1234,15 @@ height: auto;
   font-size: 100%;
   font-weight: 500;
   font-family: Poppins;
+<<<<<<< HEAD
   margin-top: 78%;
   position: absolute; /* Alterado para absolute */
   left: 10%; /* Colocado no lado esquerdo */
+=======
+  margin-top: 30%;
+  position: absolute; /* Alterado para absolute */
+  left: 74%; /* Colocado no lado esquerdo */
+>>>>>>> 745b9967a58d3cf7b4cd9e7db4fc0086c32dff3a
   background-color: #959595;
 
 }
@@ -1214,17 +1252,27 @@ height: auto;
 
   font-size: 100%;
   font-family: 'Poppins';
+<<<<<<< HEAD
   margin-top: 66%;
   position: absolute; /* Alterado para absolute */
   top: 45%; /* Colocado no topo */
   left: 10%; /* Colocado no lado esquerdo */
+=======
+  margin-top: 18%;
+  position: absolute; /* Alterado para absolute */
+  top: 45%; /* Colocado no topo */
+  left: 74%; /* Colocado no lado esquerdo */
+>>>>>>> 745b9967a58d3cf7b4cd9e7db4fc0086c32dff3a
 
 }
 
 
 
+<<<<<<< HEAD
 /*parte de banco de dados */
 
+=======
+>>>>>>> 745b9967a58d3cf7b4cd9e7db4fc0086c32dff3a
 .bancoDeDados{
 
   font-size: 600%;
@@ -1237,6 +1285,7 @@ height: auto;
 }
 
 
+<<<<<<< HEAD
 .botao-listaModeloLogico{
 
   border-radius: 100px;
@@ -1295,17 +1344,24 @@ height: auto;
 
 /*parte de desenvolvimento de sistemas */
 
+=======
+>>>>>>> 745b9967a58d3cf7b4cd9e7db4fc0086c32dff3a
 .desenvolvimentoDeSistemas{
 
   font-size: 600%;
   font-family: 'Lobster';
   margin-top: 0;
   position: absolute; /* Alterado para absolute */
+<<<<<<< HEAD
   top: 235%; /* Colocado no topo */
+=======
+  top: 250%; /* Colocado no topo */
+>>>>>>> 745b9967a58d3cf7b4cd9e7db4fc0086c32dff3a
   left: 7%; /* Colocado no lado esquerdo */
   color: rgb(26, 26, 26);
 }
 
+<<<<<<< HEAD
 .botao-calculadoraDeHoras{
 
   
@@ -1436,6 +1492,9 @@ height: auto;
 
 
 /*parte de implantação de sistemas */
+=======
+
+>>>>>>> 745b9967a58d3cf7b4cd9e7db4fc0086c32dff3a
 
 .implantacaoDeSistemas{
 
@@ -1444,11 +1503,16 @@ height: auto;
   font-family: 'Lobster';
   margin-top: 0;
   position: absolute; /* Alterado para absolute */
+<<<<<<< HEAD
   top: 340%; /* Colocado no topo */
+=======
+  top: 370%; /* Colocado no topo */
+>>>>>>> 745b9967a58d3cf7b4cd9e7db4fc0086c32dff3a
   left: 7%; /* Colocado no lado esquerdo */
   color: rgb(26, 26, 26);
 }
 
+<<<<<<< HEAD
 .botao-sistemaCms{
 
   border-radius: 100px;
@@ -1476,6 +1540,8 @@ height: auto;
 }
 
 
+=======
+>>>>>>> 745b9967a58d3cf7b4cd9e7db4fc0086c32dff3a
 
 
 
