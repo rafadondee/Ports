@@ -2,9 +2,9 @@
   font-size: 700%;
   font-family: 'Lobster';
   margin-top: 0;
-  position: absolute; /* Alterado para absolute */
-  top: 10%; /* Colocado no topo */
-  left: 130px; /* Colocado no lado esquerdo */
+  position: absolute; 
+  top: 10%;
+  left: 130px; 
   color: rgb(8, 82, 28);
 }
 
@@ -12,9 +12,9 @@
   font-size: 170%;
   font-family: 'Poppins';
   margin-top: 0;
-  position: absolute; /* Alterado para absolute */
-  top: 50%; /* Colocado no topo */
-  left: 10%; /* Colocado no lado esquerdo */
+  position: absolute;
+  top: 50%; 
+  left: 10%; 
 
 }
 
@@ -22,7 +22,7 @@
 .home img {
   position: absolute;
   top: 10%;
-  right: 8%; /* Colocado no lado direito */
+  right: 8%; 
   height: 70%;
 }
  
@@ -35,8 +35,8 @@
   font-weight: 500;
   font-family: Poppins;
   margin-top: 38%;
-  position: absolute; /* Alterado para absolute */
-  left: 10%; /* Colocado no lado esquerdo */
+  position: absolute; 
+  left: 10%; 
   background-color: #959595;
   
 }
@@ -64,9 +64,9 @@ button:hover {
   font-size: 220%;
   font-family: 'Lobster';
   margin-top: 0;
-  position: absolute; /* Alterado para absolute */
-  top: 3%; /* Colocado no topo */
-  left:3%; /* Colocado no lado esquerdo */
+  position: absolute; 
+  top: 3%; 
+  left:3%; 
   color: rgb(255, 255, 255);
   
 
@@ -77,19 +77,19 @@ button:hover {
 
 .container {
 
-  background-color:  #efeded;  /* Adicione uma cor de fundo */
+  background-color:  #efeded;  
   height: 50%;
-  padding: 20%; /* Adicione espaçamento interno */
-  transform: translateY(-180%); /* Move o elemento isolado para cima */
+  padding: 20%; 
+  transform: translateY(-180%); 
 
 }
 
 .container2 {
 
-  background-color:  #efeded;  /* Adicione uma cor de fundo */
+  background-color:  #efeded;  
   height: 50%;
-  padding: 18%; /* Adicione espaçamento interno */
-  transform: translateY(-140%); /* Move o elemento para cima */
+  padding: 18%; 
+  transform: translateY(-140%); 
 
 }
 
@@ -98,10 +98,9 @@ button:hover {
 
 .container3 {
 
-  background-color: #efeded; /* Adicione uma cor de fundo */
+  background-color: #efeded; 
   height: 50%;
-  padding: 30%; /* Adicione espaçamento interno */
-  transform: translateY(240%); /* Move o elemento isolado para cima */
+  transform: translateY(240%); 
 
 }
 
@@ -113,9 +112,9 @@ button:hover {
   font-size: 600%;
   font-family: 'Lobster';
   margin-top: 0;
-  position: absolute; /* Alterado para absolute */
-  top: 25%; /* Colocado no topo */
-  left: 7%; /* Colocado no lado esquerdo */
+  position: absolute; 
+  top: 25%; 
+  left: 7%; 
   color: rgb(26, 26, 26);
 
 }
@@ -125,9 +124,9 @@ button:hover {
   font-size: 600%;
   font-family: 'Lobster';
   margin-top: 0;
-  position: absolute; /* Alterado para absolute */
-  top: 165%; /* Colocado no topo */
-  left: 7%; /* Colocado no lado esquerdo */
+  position: absolute; 
+  top: 165%; 
+  left: 7%;
   color: rgb(26, 26, 26);
 
 }
@@ -140,9 +139,9 @@ button:hover {
   font-size: 600%;
   font-family: 'Lobster';
   margin-top: 0 ;
-  position: absolute; /* Alterado para absolute */
-  top: 280%; /* Colocado no topo */
-  left: 7%; /* Colocado no lado esquerdo */
+  position: absolute; 
+  top: 280%; 
+  left: 7%; 
   color: rgb(26, 26, 26);
 
 }
@@ -172,8 +171,8 @@ button:hover {
   font-weight: 500;
   font-family: Poppins;
   margin-top: -1.5%;
-  position: absolute; /* Alterado para absolute */
-  left: 50%; /* Colocado no lado esquerdo */
+  position: absolute; 
+  left: 50%; 
   background-color: #e6e4e4;
  
 }
@@ -187,8 +186,8 @@ button:hover {
   font-weight: 500;
   font-family: Poppins;
   margin-top: -1.5%;
-  position: absolute; /* Alterado para absolute */
-  left: 60%; /* Colocado no lado esquerdo */
+  position: absolute; 
+  left: 60%; 
   background-color: #b3b0b0;
  
 }
@@ -205,8 +204,8 @@ button:hover {
     font-family: Poppins;
     color: #fff;
     margin-top: -1.5%;
-    position: absolute; /* Alterado para absolute */
-    left: 70%; /* Colocado no lado esquerdo */
+    position: absolute; 
+    left: 70%; 
     background-color: #636060;
    
   }
@@ -223,8 +222,8 @@ button:hover {
       font-family: Poppins;
       color: #fff;
       margin-top: -1.5%;
-      position: absolute; /* Alterado para absolute */
-      left: 82%; /* Colocado no lado esquerdo */
+      position: absolute; 
+      left: 82%; 
       background-color: #292828;
      
     }
@@ -240,13 +239,14 @@ border: 1px solid transparent;
   font-family: Poppins;
   color: #fff;
   margin-top: -1.5%;
-  position: absolute; /* Alterado para absolute */
-  left: 90%; /* Colocado no lado esquerdo */
+  position: absolute; 
+  left: 90%; 
   background-color: #000000;
  
 }
 
 /* Esse body é pra ajeitar o cabeçalho - header */
+
 body {
   margin: 0;
 }
@@ -279,12 +279,12 @@ body {
 
 
 .botao-flecha  {
-  width: 4%; /* Garante que a imagem do botão ocupe todo o espaço disponível */
-  height: 8%; /* Mantém a proporção da imagem */
-  position: fixed; /* Define a posição fixa para o botão */
-  bottom: 2%; /* Define a distância do botão a partir do fundo */
-  right: 3%; /* Define a distância do botão a partir da direita */
-  cursor: pointer; /* Altera o cursor para indicar que o botão é clicável */
+  width: 4%; 
+  height: 8%; 
+  position: fixed; 
+  bottom: 2%; 
+  right: 3%; 
+  cursor: pointer; 
   border-radius:50%;
   border: none;
   background-color: #b6b5b5;
@@ -307,7 +307,7 @@ height: auto;
 .rotina-table {
   width: 70%;
   height: 50%;
-  transform: translateY(-335%); /* Move o elemento para cima */
+  transform: translateY(-335%); 
   left: 15%;
   position: absolute;
   font-size: 110%;
@@ -334,28 +334,28 @@ height: auto;
 
 
 .slick-slider {
-  margin-left: 25%; /* Centralizar o carrossel horizontalmente */
-  width: 50%; /* Largura do carrossel */
-  padding-left: -2%; /* Espaçamento à esquerda */
-  transform: translateY(); /* Move o elemento isolado para cima */
+  margin-left: 25%; 
+  width: 50%; 
+  padding-left: -2%;
+  transform: translateY(); 
 
   /* Estilos adicionais conforme necessário */
 }
 
 .slick-slide {
-  text-align: center; /* Centralizar conteúdo dentro dos slides */
+  text-align: center; 
   color: #0077b5;
 }
 
 .slick-slide svg {
-  width: 70%; /* Largura máxima do ícone dentro do slide */
-  height: auto; /* Altura automática para manter a proporção */
+  width: 70%; 
+  height: auto; 
 
 
-  background-color: #17d314; /* Cor de fundo para o círculo preto */
-  border-radius: 100%; /* Bordas arredondadas para criar um círculo */
-  display: block; /* Garante que o SVG se comporte como um bloco */
-  margin: 0 auto; /* Centralizar o SVG dentro do slide */
+  background-color: #17d314; 
+  border-radius: 100%; 
+  display: block; 
+  margin: 0 auto; 
 }
 
 
@@ -364,16 +364,16 @@ height: auto;
 
 .slick-prev,
 .slick-next {
-  /* Adicione estilos para os botões de navegação do carrossel */
-  width: 6.5%; /* Definir largura dos botões */
-  height: 9%; /* Definir altura dos botões */
-  background-color: #000000; /* Cor de fundo dos botões */
-  border-radius: 50%; /* Borda arredondada para criar um botão circular */
+
+  width: 6.5%; 
+  height: 9%; 
+  background-color: #000000; 
+  border-radius: 50%; 
 }
 
 .slick-prev:hover,
 .slick-next:hover {
-  /* Estilos de hover para os botões de navegação */
+ 
   background-color:rgb(18, 230, 75);
 }
 
@@ -386,9 +386,9 @@ height: auto;
 
 
 .cards-container {
-  display: flex; /* Torna o container um flex container */
-  flex-wrap: wrap; /* Permite que os itens quebrem para a próxima linha quando necessário */
-  justify-content: center; /* Centraliza os itens horizontalmente */
+  display: flex; 
+  flex-wrap: wrap; 
+  justify-content: center; 
   font-family: 'Poppins';
 }
 
@@ -398,15 +398,15 @@ height: auto;
 .linguagens-card,
 .tecnico-card,
 .escolha-card {
-  flex: 0 0 30%; /* Define a largura de cada card para ocupar 30% do container */
-  margin: 0.75%; /* Adiciona uma margem entre os cards */
-  background-color: #f5f5f5; /* Cor de fundo */
-  border-radius: 10px; /* Bordas arredondadas */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
-  padding: 1%; /* Espaçamento interno */
-  text-align: center; /* Centraliza o conteúdo */
-  transition: transform 0.3s ease; /* Transição suave ao passar o mouse */
-  cursor: pointer; /* Altera o cursor ao passar o mouse */
+  flex: 0 0 30%;
+  margin: 0.75%; 
+  background-color: #f5f5f5; 
+  border-radius: 10px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  padding: 1%; 
+  text-align: center; 
+  transition: transform 0.3s ease; 
+  cursor: pointer; 
   width: 50%;
 }
 
@@ -425,86 +425,86 @@ height: auto;
 .linguagens-card h2,
 .tecnico-card h2,
 .escolha-card h2 {
-  font-size: 20px; /* Tamanho da fonte do título */
-  margin-bottom: 10px; /* Espaçamento inferior */
+  font-size: 20px; 
+  margin-bottom: 10px; 
 }
 
 .matematica-card  {
-  width: 20%; /* Define a largura da imagem como 100% */
-  height: 60%; /* Permite que a altura seja ajustada automaticamente para manter a proporção */
+  width: 20%;
+  height: 60%; 
 
 }
 
 .matematica-card img {
-  width: 40%; /* Define a largura da imagem como 100% */
-  height: 60%; /* Permite que a altura seja ajustada automaticamente para manter a proporção */
-  border: 2px solid #ccc; /* Adiciona uma borda à imagem */
-  border-radius: 8px; /* Adiciona bordas arredondadas */
+  width: 40%; 
+  height: 60%; 
+  border: 2px solid #ccc; 
+  border-radius: 8px; 
 }
 
 .natureza-card  {
-  width: 20%; /* Define a largura da imagem como 100% */
-  height: 10%; /* Permite que a altura seja ajustada automaticamente para manter a proporção */
+  width: 20%;
+  height: 10%; 
 
 }
 
 .natureza-card img {
-  width: 40.5%; /* Define a largura da imagem como 100% */
-  height: auto; /* Permite que a altura seja ajustada automaticamente para manter a proporção */
-  border: 2px solid #ccc; /* Adiciona uma borda à imagem */
-  border-radius: 8px; /* Adiciona bordas arredondadas */
+  width: 40.5%;
+  height: auto; 
+  border: 2px solid #ccc; 
+  border-radius: 8px; 
 }
 
 .humanas-card  {
-  width: 20%; /* Define a largura da imagem como 100% */
-  height: 10%; /* Permite que a altura seja ajustada automaticamente para manter a proporção */
+  width: 20%; 
+  height: 10%; 
 
 }
 
 .humanas-card img {
-  width: 37%; /* Define a largura da imagem como 100% */
-  height: auto; /* Permite que a altura seja ajustada automaticamente para manter a proporção */
-  border: 2px solid #ccc; /* Adiciona uma borda à imagem */
-  border-radius: 8px; /* Adiciona bordas arredondadas */
+  width: 37%; 
+  height: auto; 
+  border: 2px solid #ccc; 
+  border-radius: 8px; 
 }
 
 .linguagens-card  {
-  width: 20%; /* Define a largura da imagem como 100% */
-  height: 10%; /* Permite que a altura seja ajustada automaticamente para manter a proporção */
+  width: 20%; 
+  height: 10%; 
 
 }
 
 .linguagens-card img {
-  width: 38.5%; /* Define a largura da imagem como 100% */
-  height: auto; /* Permite que a altura seja ajustada automaticamente para manter a proporção */
-  border: 2px solid #ccc; /* Adiciona uma borda à imagem */
-  border-radius: 8px; /* Adiciona bordas arredondadas */
+  width: 38.5%; 
+  height: auto; 
+  border: 2px solid #ccc; 
+  border-radius: 8px; 
 }
 
 .tecnico-card  {
-  width: 20%; /* Define a largura da imagem como 100% */
-  height: 10%; /* Permite que a altura seja ajustada automaticamente para manter a proporção */
+  width: 20%; 
+  height: 10%; 
 
 }
 
 .tecnico-card img {
-  width: 37%; /* Define a largura da imagem como 100% */
-  height: auto; /* Permite que a altura seja ajustada automaticamente para manter a proporção */
-  border: 2px solid #ccc; /* Adiciona uma borda à imagem */
-  border-radius: 8px; /* Adiciona bordas arredondadas */
+  width: 37%; 
+  height: auto; 
+  border: 2px solid #ccc; 
+  border-radius: 8px; 
 }
 
 .escolha-card  {
-  width: 20%; /* Define a largura da imagem como 100% */
-  height: 10%; /* Permite que a altura seja ajustada automaticamente para manter a proporção */
+  width: 20%; 
+  height: 10%; 
 
 }
 
 .escolha-card img {
-  width: 39%; /* Define a largura da imagem como 100% */
-  height: auto; /* Permite que a altura seja ajustada automaticamente para manter a proporção */
-  border: 2px solid #ccc; /* Adiciona uma borda à imagem */
-  border-radius: 8px; /* Adiciona bordas arredondadas */
+  width: 39%; 
+  height: auto; 
+  border: 2px solid #ccc; 
+  border-radius: 8px; 
 }
 
 /*Pgn de matematica */
@@ -513,8 +513,8 @@ height: auto;
 .matematica h1 {
   font-size: 150%;
   font-family: 'Poppins';
-  margin-top: 5%; /* Colocado no topo */
-  margin-left: 20%; /* Colocado no lado esquerdo */
+  margin-top: 5%; 
+  margin-left: 20%; 
   color: rgb(0, 0, 0);
 }
 
@@ -527,8 +527,8 @@ height: auto;
   font-weight: 500;
   font-family: Poppins;
   margin-top: 27%;
-  position: absolute; /* Alterado para absolute */
-  left: 20%; /* Colocado no lado esquerdo */
+  position: absolute; 
+  left: 20%; 
   background-color: #959595;
 }
 
@@ -538,9 +538,9 @@ height: auto;
   font-size: 600%;
   font-family: 'Lobster';
   margin-top: 0;
-  position: absolute; /* Alterado para absolute */
-  top: 25%; /* Colocado no topo */
-  left: 7%; /* Colocado no lado esquerdo */
+  position: absolute; 
+  top: 25%; 
+  left: 7%; 
   color: rgb(26, 26, 26);
 }
 
@@ -549,15 +549,15 @@ height: auto;
   font-size: 100%;
   font-family: 'Poppins';
   transform: translateY(200%);
-  position: absolute; /* Alterado para absolute */
-  top: 50%; /* Colocado no topo */
-  left: 20%; /* Colocado no lado esquerdo */
+  position: absolute; 
+  top: 50%; 
+  left: 20%; 
 }
 /*video iframe mtm*/
 .video-gabigol{
 
  transform: translateY(280%);
-  margin-left: 60%; /* Colocado no lado esquerdo */
+  margin-left: 60%; 
   border: none;
 }
 
@@ -568,9 +568,9 @@ height: auto;
   font-size: 600%;
   font-family: 'Lobster';
   margin-top: 0;
-  position: absolute; /* Alterado para absolute */
-  top: 125%; /* Colocado no topo */
-  left: 7%; /* Colocado no lado esquerdo */
+  position: absolute; 
+  top: 125%; 
+  left: 7%; 
   color: rgb(26, 26, 26);
 
 
@@ -581,8 +581,8 @@ height: auto;
   font-size: 100%;
   font-family: 'Poppins';
   transform: translateY(740%);
-  position: absolute; /* Alterado para absolute */
-  left: 20%; /* Colocado no lado esquerdo */
+  position: absolute; 
+  left: 20%; 
 
 }
 
@@ -595,8 +595,8 @@ height: auto;
   font-weight: 500;
   font-family: Poppins;
   transform: translateY(2550%);
-  position: absolute; /* Alterado para absolute */
-  left: 20%; /* Colocado no lado esquerdo */
+  position: absolute; 
+  left: 20%; 
   background-color: #959595;
 
 }
@@ -605,16 +605,17 @@ height: auto;
 
   font-size: 100%;
   font-family: 'Poppins';
-  transform: translateY(740%);
-  position: absolute; /* Alterado para absolute */
-  left: 65%; /* Colocado no lado esquerdo */
+  top: 180%;
+  position: absolute;
+  left: 65%; 
+  padding-bottom: 10%;
 
 }
 
 .botao-floripoly{
 
-  color: #000; /* Define a cor do texto como preto (ou a cor desejada) */
-  text-decoration: none; /* Remove o sublinhado */
+  color: #000; 
+  text-decoration: none; 
   border-radius: 100px;
   border: 1px solid transparent;
   padding: 0.6em 1.2em;
@@ -622,8 +623,8 @@ height: auto;
   font-weight: 500;
   font-family: Poppins;
   transform: translateY(2550%);
-  position: absolute; /* Alterado para absolute */
-  left: 65%; /* Colocado no lado esquerdo */
+  position: absolute; 
+  left: 65%; 
   background-color: #959595;
 
 }
@@ -639,9 +640,9 @@ height: auto;
   font-size: 600%;
   font-family: 'Lobster';
   margin-top: 0;
-  position: absolute; /* Alterado para absolute */
-  top: 25%; /* Colocado no topo */
-  left: 7%; /* Colocado no lado esquerdo */
+  position: absolute; 
+  top: 25%; 
+  left: 7%; 
   color: rgb(26, 26, 26);
 }
 
@@ -654,8 +655,8 @@ height: auto;
   font-weight: 500;
   font-family: Poppins;
   margin-top: 30%;
-  position: absolute; /* Alterado para absolute */
-  left: 20%; /* Colocado no lado esquerdo */
+  position: absolute; 
+  left: 20%; 
   background-color: #959595;
 }
 
@@ -663,9 +664,9 @@ height: auto;
   font-size: 100%;
   font-family: 'Poppins';
   margin-top: 18%;
-  position: absolute; /* Alterado para absolute */
-  top: 45%; /* Colocado no topo */
-  left: 20%; /* Colocado no lado esquerdo */
+  position: absolute; 
+  top: 45%; 
+  left: 20%; 
 }
 
 .botao-evolucionismo{
@@ -677,8 +678,8 @@ height: auto;
   font-weight: 500;
   font-family: Poppins;
   margin-top: 30%;
-  position: absolute; /* Alterado para absolute */
-  left: 45%; /* Colocado no lado esquerdo */
+  position: absolute; 
+  left: 45%; 
   background-color: #959595;
 }
 
@@ -686,9 +687,9 @@ height: auto;
   font-size: 100%;
   font-family: 'Poppins';
   margin-top: 18%;
-  position: absolute; /* Alterado para absolute */
-  top: 45%; /* Colocado no topo */
-  left: 45%; /* Colocado no lado esquerdo */
+  position: absolute; 
+  top: 45%; 
+  left: 45%; 
 }
 
 .botao-circuitos{
@@ -700,8 +701,8 @@ height: auto;
   font-weight: 500;
   font-family: Poppins;
   margin-top: 30%;
-  position: absolute; /* Alterado para absolute */
-  left: 73%; /* Colocado no lado esquerdo */
+  position: absolute; 
+  left: 73%; 
   background-color: #959595;
 }
 
@@ -709,18 +710,18 @@ height: auto;
   font-size: 100%;
   font-family: 'Poppins';
   margin-top: 18%;
-  position: absolute; /* Alterado para absolute */
-  top: 45%; /* Colocado no topo */
-  left: 73%; /* Colocado no lado esquerdo */
+  position: absolute; 
+  top: 45%; 
+  left: 73%; 
 }
 
 .segundoTrimestreNatureza {
   font-size: 600%;
   font-family: 'Lobster';
   margin-top: 0;
-  position: absolute; /* Alterado para absolute */
-  top: 125%; /* Colocado no topo */
-  left: 7%; /* Colocado no lado esquerdo */
+  position: absolute; 
+  top: 125%; 
+  left: 7%; 
   color: rgb(26, 26, 26);
 }
 
@@ -728,7 +729,7 @@ height: auto;
 .botao-mapaMentalCircuitos{
 
 
-  color: #000; /* Define a cor do texto como preto (ou a cor desejada) */
+  color: #000; 
   text-decoration: none; /* Remove o sublinhado */
   border-radius: 100px;
   border: 1px solid transparent;
@@ -737,8 +738,8 @@ height: auto;
   font-weight: 500;
   font-family: Poppins;
   margin-top: 80%;
-  position: absolute; /* Alterado para absolute */
-  left: 18%; /* Colocado no lado esquerdo */
+  position: absolute; 
+  left: 18%; 
   background-color: #959595;
 }
 
@@ -751,9 +752,10 @@ height: auto;
   font-size: 100%;
   font-family: 'Poppins';
   margin-top: 18%;
-  position: absolute; /* Alterado para absolute */
-  top: 150%; /* Colocado no topo */
-  left: 18%; /* Colocado no lado esquerdo */
+  position: absolute; 
+  top: 150%; 
+  left: 18%; 
+  padding-bottom: 10%;
 
 }
 
@@ -767,8 +769,8 @@ height: auto;
   font-weight: 500;
   font-family: Poppins;
   margin-top: 80%;
-  position: absolute; /* Alterado para absolute */
-  left: 45%; /* Colocado no lado esquerdo */
+  position: absolute; 
+  left: 45%; 
   background-color: #959595;
 
  }
@@ -778,9 +780,9 @@ height: auto;
   font-size: 100%;
   font-family: 'Poppins';
   margin-top: 18%;
-  position: absolute; /* Alterado para absolute */
-  top: 150%; /* Colocado no topo */
-  left: 45%; /* Colocado no lado esquerdo */
+  position: absolute; 
+  top: 150%; 
+  left: 45%; 
 
 }
 
@@ -793,9 +795,9 @@ height: auto;
   font-size: 600%;
   font-family: 'Lobster';
   margin-top: 0;
-  position: absolute; /* Alterado para absolute */
-  top: 25%; /* Colocado no topo */
-  left: 7%; /* Colocado no lado esquerdo */
+  position: absolute; 
+  top: 25%; 
+  left: 7%; 
   color: rgb(26, 26, 26);
 }
 
@@ -804,9 +806,9 @@ height: auto;
   font-size: 600%;
   font-family: 'Lobster';
   margin-top: 0;
-  position: absolute; /* Alterado para absolute */
-  top: 125%; /* Colocado no topo */
-  left: 7%; /* Colocado no lado esquerdo */
+  position: absolute; 
+  top: 125%; 
+  left: 7%; 
   color: rgb(26, 26, 26);
 
 }
@@ -821,8 +823,8 @@ height: auto;
   font-weight: 500;
   font-family: Poppins;
   margin-top: 30%;
-  position: absolute; /* Alterado para absolute */
-  left: 20%; /* Colocado no lado esquerdo */
+  position: absolute; 
+  left: 20%; 
   background-color: #959595;
 }
 
@@ -830,9 +832,9 @@ height: auto;
   font-size: 100%;
   font-family: 'Poppins';
   margin-top: 13%;
-  position: absolute; /* Alterado para absolute */
-  top: 55%; /* Colocado no topo */
-  left: 20%; /* Colocado no lado esquerdo */
+  position: absolute; 
+  top: 55%; 
+  left: 20%; 
 }
 
 .botao-paises{
@@ -844,8 +846,8 @@ height: auto;
   font-weight: 500;
   font-family: Poppins;
   margin-top: 30%;
-  position: absolute; /* Alterado para absolute */
-  left: 44%; /* Colocado no lado esquerdo */
+  position: absolute; 
+  left: 44%; 
   background-color: #959595;
 }
 
@@ -853,9 +855,9 @@ height: auto;
   font-size: 100%;
   font-family: 'Poppins';
   margin-top: 13%;
-  position: absolute; /* Alterado para absolute */
-  top: 55%; /* Colocado no topo */
-  left: 44%; /* Colocado no lado esquerdo */
+  position: absolute; 
+  top: 55%; 
+  left: 44%; 
 }
 
 .botao-imperialismo{
@@ -867,8 +869,8 @@ height: auto;
   font-weight: 500;
   font-family: Poppins;
   margin-top: 30%;
-  position: absolute; /* Alterado para absolute */
-  left: 72%; /* Colocado no lado esquerdo */
+  position: absolute; 
+  left: 72%; 
   background-color: #959595;
 }
 
@@ -880,16 +882,16 @@ height: auto;
   font-size: 100%;
   font-family: 'Poppins';
   margin-top: 13%;
-  position: absolute; /* Alterado para absolute */
-  top: 55%; /* Colocado no topo */
-  left: 72%; /* Colocado no lado esquerdo */
+  position: absolute; 
+  top: 55%; 
+  left: 72%; 
 }
 
 .botao-totalitarismo{
 
 
-  color: #000; /* Define a cor do texto como preto (ou a cor desejada) */
-  text-decoration: none; /* Remove o sublinhado */
+  color: #000; 
+  text-decoration: none; 
   border-radius: 100px;
   border: 1px solid transparent;
   padding: 0.6em 1.2em;
@@ -897,9 +899,9 @@ height: auto;
   font-weight: 500;
   font-family: Poppins;
   margin-top: 58%;
-  position: absolute; /* Alterado para absolute */
-  top: 50%; /* Colocado no topo */
-  left: 18%; /* Colocado no lado esquerdo */
+  position: absolute; 
+  top: 50%; 
+  left: 18%; 
   background-color: #959595;
 }
 
@@ -909,17 +911,17 @@ height: auto;
   font-size: 100%;
   font-family: 'Poppins';
   margin-top: 18%;
-  position: absolute; /* Alterado para absolute */
-  top: 150%; /* Colocado no topo */
-  left: 18%; /* Colocado no lado esquerdo */
+  position: absolute; 
+  top: 150%; 
+  left: 18%;
 
 }
 
 
  .botao-urbanismo{
 
-  color: #000; /* Define a cor do texto como preto (ou a cor desejada) */
-  text-decoration: none; /* Remove o sublinhado */
+  color: #000; 
+  text-decoration: none; 
   border-radius: 100px;
   border: 1px solid transparent;
   padding: 0.6em 1.2em;
@@ -927,9 +929,9 @@ height: auto;
   font-weight: 500;
   font-family: Poppins;
   margin-top: 58%;
-  position: absolute; /* Alterado para absolute */
-  top: 50%; /* Colocado no topo */
-  left: 45%; /* Colocado no lado esquerdo */
+  position: absolute; 
+  top: 50%; 
+  left: 45%; 
   background-color: #959595;
 
  }
@@ -943,14 +945,11 @@ height: auto;
   font-size: 100%;
   font-family: 'Poppins';
   margin-top: 18%;
-  position: absolute; /* Alterado para absolute */
-  top: 150%; /* Colocado no topo */
-  left: 45%; /* Colocado no lado esquerdo */
+  position: absolute; 
+  top: 150%; 
+  left: 45%; 
 
 }
-
-
-
 
 
 
@@ -960,9 +959,9 @@ height: auto;
   font-size: 600%;
   font-family: 'Lobster';
   margin-top: 0;
-  position: absolute; /* Alterado para absolute */
-  top: 25%; /* Colocado no topo */
-  left: 7%; /* Colocado no lado esquerdo */
+  position: absolute; 
+  top: 25%; 
+  left: 7%; 
   color: rgb(26, 26, 26);
 }
 
@@ -971,9 +970,9 @@ height: auto;
   font-size: 600%;
   font-family: 'Lobster';
   margin-top: 0;
-  position: absolute; /* Alterado para absolute */
-  top: 125%; /* Colocado no topo */
-  left: 7%; /* Colocado no lado esquerdo */
+  position: absolute; 
+  top: 125%; 
+  left: 7%; 
   color: rgb(26, 26, 26);
   
 
@@ -989,8 +988,8 @@ height: auto;
   font-weight: 500;
   font-family: Poppins;
   margin-top: 30%;
-  position: absolute; /* Alterado para absolute */
-  left: 17%; /* Colocado no lado esquerdo */
+  position: absolute; 
+  left: 17%; 
   background-color: #959595;
 }
 
@@ -998,9 +997,9 @@ height: auto;
   font-size: 100%;
   font-family: 'Poppins';
   margin-top: 13%;
-  position: absolute; /* Alterado para absolute */
-  top: 55%; /* Colocado no topo */
-  left: 17%; /* Colocado no lado esquerdo */
+  position: absolute; 
+  top: 55%; 
+  left: 17%; 
 
 
 }
@@ -1015,8 +1014,8 @@ height: auto;
   font-weight: 500;
   font-family: Poppins;
   margin-top: 30%;
-  position: absolute; /* Alterado para absolute */
-  left: 45%; /* Colocado no lado esquerdo */
+  position: absolute;
+  left: 45%; 
   background-color: #959595;
 }
 
@@ -1024,9 +1023,9 @@ height: auto;
   font-size: 100%;
   font-family: 'Poppins';
   margin-top: 13%;
-  position: absolute; /* Alterado para absolute */
-  top: 55%; /* Colocado no topo */
-  left: 45%; /* Colocado no lado esquerdo */
+  position: absolute; 
+  top: 55%; 
+  left: 45%; 
 
 
 }
@@ -1040,8 +1039,8 @@ height: auto;
   font-weight: 500;
   font-family: Poppins;
   margin-top: 30%;
-  position: absolute; /* Alterado para absolute */
-  left: 70%; /* Colocado no lado esquerdo */
+  position: absolute; 
+  left: 70%; 
   background-color: #959595;
 }
 
@@ -1049,9 +1048,9 @@ height: auto;
   font-size: 100%;
   font-family: 'Poppins';
   margin-top: 13%;
-  position: absolute; /* Alterado para absolute */
-  top: 55%; /* Colocado no topo */
-  left: 70%; /* Colocado no lado esquerdo */
+  position: absolute; 
+  top: 55%; 
+  left: 70%; 
 }
 
 
@@ -1064,9 +1063,9 @@ height: auto;
   font-weight: 500;
   font-family: Poppins;
   margin-top: 55%;
-  top: 50%; /* Colocado no topo */
-  position: absolute; /* Alterado para absolute */
-  left: 18%; /* Colocado no lado esquerdo */
+  top: 50%; 
+  position: absolute; 
+  left: 18%; 
   background-color: #959595;
 }
 
@@ -1076,13 +1075,11 @@ height: auto;
   font-size: 100%;
   font-family: 'Poppins';
   margin-top: 15%;
-  position: absolute; /* Alterado para absolute */
-  top: 150%; /* Colocado no topo */
-  left: 18%; /* Colocado no lado esquerdo */
+  position: absolute; 
+  top: 150%; 
+  left: 18%; 
 
 }
-
-
 
 
 /*pgn do técnico */
@@ -1095,14 +1092,13 @@ height: auto;
   font-size: 600%;
   font-family: 'Lobster';
   margin-top: 0;
-  position: absolute; /* Alterado para absolute */
-  top: 25%; /* Colocado no topo */
-  left: 7%; /* Colocado no lado esquerdo */
+  position: absolute; 
+  top: 25%; 
+  left: 7%; 
   color: rgb(26, 26, 26);
 }
 
 .botao-salaDeAulaInvertida{
-
 
   border-radius: 100px;
   border: 1px solid transparent;
@@ -1111,8 +1107,8 @@ height: auto;
   font-weight: 500;
   font-family: Poppins;
   margin-top: 30%;
-  position: absolute; /* Alterado para absolute */
-  left: 11%; /* Colocado no lado esquerdo */
+  position: absolute; 
+  left: 11%; 
   background-color: #959595;
 
 }
@@ -1122,17 +1118,16 @@ height: auto;
   font-size: 100%;
   font-family: 'Poppins';
   margin-top: 18%;
-  position: absolute; /* Alterado para absolute */
-  top: 45%; /* Colocado no topo */
-  left: 10%; /* Colocado no lado esquerdo */
+  position: absolute; 
+  top: 45%; 
+  left: 10%; 
 
 }
 
-
 .botao-wireframe{
 
-  color: #000; /* Define a cor do texto como preto (ou a cor desejada) */
-  text-decoration: none; /* Remove o sublinhado */
+  color: #000; 
+  text-decoration: none; 
   border-radius: 100px;
   border: 1px solid transparent;
   padding: 0.6em 1.2em;
@@ -1140,8 +1135,8 @@ height: auto;
   font-weight: 500;
   font-family: Poppins;
   margin-top: 30%;
-  position: absolute; /* Alterado para absolute */
-  left: 74%; /* Colocado no lado esquerdo */
+  position: absolute; 
+  left: 74%; 
   background-color: #959595;
 }
 
@@ -1154,18 +1149,16 @@ height: auto;
   font-size: 100%;
   font-family: 'Poppins';
   margin-top: 18%;
-  position: absolute; /* Alterado para absolute */
-  top: 45%; /* Colocado no topo */
-  left: 72.5%; /* Colocado no lado esquerdo */
+  position: absolute; 
+  top: 45%; 
+  left: 72.5%; 
 
 }
 
-
-
 .botao-regrasDeNegocio{
 
-  color: #000; /* Define a cor do texto como preto (ou a cor desejada) */
-  text-decoration: none; /* Remove o sublinhado */
+  color: #000; 
+  text-decoration: none; 
   border-radius: 100px;
   border: 1px solid transparent;
   padding: 0.6em 1.2em;
@@ -1173,8 +1166,8 @@ height: auto;
   font-weight: 500;
   font-family: Poppins;
   margin-top: 30%;
-  position: absolute; /* Alterado para absolute */
-  left: 41%; /* Colocado no lado esquerdo */
+  position: absolute; 
+  left: 41%; 
   background-color: #959595;
 }
 
@@ -1182,15 +1175,14 @@ height: auto;
   background-color:rgb(18, 230, 75);
  }
 
-
  .paragrafo-regrasDeNegocio{
 
   font-size: 100%;
   font-family: 'Poppins';
   margin-top: 18%;
-  position: absolute; /* Alterado para absolute */
-  top: 45%; /* Colocado no topo */
-  left: 40%; /* Colocado no lado esquerdo */
+  position: absolute; 
+  top: 45%; 
+  left: 40%; 
 }
 
 
@@ -1203,25 +1195,22 @@ height: auto;
   font-weight: 500;
   font-family: Poppins;
   margin-top: 78%;
-  position: absolute; /* Alterado para absolute */
-  left: 10%; /* Colocado no lado esquerdo */
+  position: absolute; 
+  left: 10%; 
   background-color: #959595;
 
 }
-
 
 .paragrafo-modelagemConsultorio{
 
   font-size: 100%;
   font-family: 'Poppins';
   margin-top: 66%;
-  position: absolute; /* Alterado para absolute */
-  top: 45%; /* Colocado no topo */
-  left: 10%; /* Colocado no lado esquerdo */
+  position: absolute; 
+  top: 45%; 
+  left: 10%; 
 
 }
-
-
 
 /*parte de banco de dados */
 
@@ -1230,9 +1219,9 @@ height: auto;
   font-size: 600%;
   font-family: 'Lobster';
   margin-top: 0;
-  position: absolute; /* Alterado para absolute */
-  top: 125%; /* Colocado no topo */
-  left: 7%; /* Colocado no lado esquerdo */
+  position: absolute; 
+  top: 125%; 
+  left: 7%; 
   color: rgb(26, 26, 26);
 }
 
@@ -1246,8 +1235,8 @@ height: auto;
   font-weight: 500;
   font-family: Poppins;
   margin-top: 78%;
-  position: absolute; /* Alterado para absolute */
-  left: 42%; /* Colocado no lado esquerdo */
+  position: absolute;
+  left: 42%; 
   background-color: #959595;
 
 }
@@ -1257,16 +1246,15 @@ height: auto;
   font-size: 100%;
   font-family: 'Poppins';
   margin-top: 66%;
-  position: absolute; /* Alterado para absolute */
-  top: 45%; /* Colocado no topo */
-  left: 40%; /* Colocado no lado esquerdo */
-
+  position: absolute; 
+  top: 45%; 
+  left: 40%; 
 }
 
 .botao-normalizacaoDeDados{
 
-  color: #000; /* Define a cor do texto como preto (ou a cor desejada) */
-  text-decoration: none; /* Remove o sublinhado */
+  color: #000; 
+  text-decoration: none; 
   border-radius: 100px;
   border: 1px solid transparent;
   padding: 0.6em 1.2em;
@@ -1274,8 +1262,8 @@ height: auto;
   font-weight: 500;
   font-family: Poppins;
   margin-top: 78%;
-  position: absolute; /* Alterado para absolute */
-  left: 71%; /* Colocado no lado esquerdo */
+  position: absolute; 
+  left: 71%; 
   background-color: #959595;
 }
 
@@ -1284,14 +1272,59 @@ height: auto;
   font-size: 100%;
   font-family: 'Poppins';
   margin-top: 66%;
-  position: absolute; /* Alterado para absolute */
-  top: 45%; /* Colocado no topo */
-  left: 72%; /* Colocado no lado esquerdo */
-
+  position: absolute; 
+  top: 45%; 
+  left: 72%; 
 
  }
 
+ .botao-bibliotecaBanco{
+  background-color: #959595;
+  border-radius: 100px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 100%;
+  font-weight: 500;
+  font-family: Poppins;
+  margin-top: 105%;
+  position: absolute;
+  left: 10%;
+}
 
+.paragrafo-bibliotecaBanco{
+
+  font-size: 100%;
+  font-family: 'Poppins';
+  margin-top: 66%;
+  position: absolute; 
+  top: 102.5%; 
+  left: 10%; 
+}
+
+
+.botao-join{
+  background-color: #959595;
+  border-radius: 100px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 100%;
+  font-weight: 500;
+  font-family: Poppins;
+  margin-top: 105%;
+  position: absolute;
+  left: 43%;
+}
+
+.paragrafo-join{
+
+  font-size: 100%;
+  font-family: 'Poppins';
+  margin-top: 66%;
+  position: absolute; 
+  top: 102.5%; 
+  left: 41%;
+ 
+}
 
 /*parte de desenvolvimento de sistemas */
 
@@ -1300,26 +1333,25 @@ height: auto;
   font-size: 600%;
   font-family: 'Lobster';
   margin-top: 0;
-  position: absolute; /* Alterado para absolute */
-  top: 235%; /* Colocado no topo */
-  left: 7%; /* Colocado no lado esquerdo */
+  position: absolute; 
+  top: 280%; 
+  left: 7%; 
   color: rgb(26, 26, 26);
 }
 
 .botao-calculadoraDeHoras{
 
-  
-  color: #000; /* Define a cor do texto como preto (ou a cor desejada) */
-  text-decoration: none; /* Remove o sublinhado */
+  color: #000; 
+  text-decoration: none; 
   border-radius: 100px;
   border: 1px solid transparent;
   padding: 0.6em 1.2em;
   font-size: 100%;
   font-weight: 500;
   font-family: Poppins;
-  margin-top: 130%;
-  position: absolute; /* Alterado para absolute */
-  left: 5%; /* Colocado no lado esquerdo */
+  margin-top: 150%;
+  position: absolute; 
+  left: 5%; 
   background-color: #959595;
 }
 
@@ -1331,26 +1363,24 @@ height: auto;
 
   font-size: 100%;
   font-family: 'Poppins';
-  margin-top: 133%;
-  position: absolute; /* Alterado para absolute */
-  left: 5%; /* Colocado no lado esquerdo */
-
+  margin-top: 154%;
+  position: absolute; 
+  left: 5%; 
 }
 
 .botao-apiGithub{
-
   
-  color: #000; /* Define a cor do texto como preto (ou a cor desejada) */
-  text-decoration: none; /* Remove o sublinhado */
+  color: #000; 
+  text-decoration: none;
   border-radius: 100px;
   border: 1px solid transparent;
   padding: 0.6em 1.2em;
   font-size: 100%;
   font-weight: 500;
   font-family: Poppins;
-  margin-top: 130%;
-  position: absolute; /* Alterado para absolute */
-  left: 31%; /* Colocado no lado esquerdo */
+  margin-top: 150%;
+  position: absolute; 
+  left: 31%; 
   background-color: #959595;
 }
 
@@ -1363,27 +1393,25 @@ height: auto;
 
   font-size: 100%;
   font-family: 'Poppins'; 
-  margin-top: 133%;
-  position: absolute; /* Alterado para absolute */
-  left: 31%; /* Colocado no lado esquerdo */
+  margin-top: 154%;
+  position: absolute; 
+  left: 31%; 
 
 }
-  
 
 .botao-trabalhoApi{
-
   
-  color: #000; /* Define a cor do texto como preto (ou a cor desejada) */
-  text-decoration: none; /* Remove o sublinhado */
+  color: #000; 
+  text-decoration: none; 
   border-radius: 100px;
   border: 1px solid transparent;
   padding: 0.6em 1.2em;
   font-size: 100%;
   font-weight: 500;
   font-family: Poppins;
-  margin-top: 130%;
-  position: absolute; /* Alterado para absolute */
-  left: 56%; /* Colocado no lado esquerdo */
+  margin-top: 150%;
+  position: absolute; 
+  left: 56%; 
   background-color: #959595;
 }
 
@@ -1391,27 +1419,26 @@ height: auto;
 
   font-size: 100%;
   font-family: 'Poppins'; 
-  margin-top: 133%;
-  position: absolute; /* Alterado para absolute */
-  left: 56%; /* Colocado no lado esquerdo */
+  margin-top: 154%;
+  position: absolute; 
+  left: 56%; 
 
 }
 
 
 .botao-projetoBiblioteca{
-
   
-  color: #000; /* Define a cor do texto como preto (ou a cor desejada) */
-  text-decoration: none; /* Remove o sublinhado */
+  color: #000; 
+  text-decoration: none; 
   border-radius: 100px;
   border: 1px solid transparent;
   padding: 0.6em 1.2em;
   font-size: 100%;
   font-weight: 500;
   font-family: Poppins;
-  margin-top: 130%;
-  position: absolute; /* Alterado para absolute */
-  left: 80%; /* Colocado no lado esquerdo */
+  margin-top: 150%;
+  position: absolute; 
+  left: 80%; 
   background-color: #959595;
 }
 
@@ -1424,13 +1451,11 @@ height: auto;
 
   font-size: 100%;
   font-family: 'Poppins'; 
-  margin-top: 133%;
-  position: absolute; /* Alterado para absolute */
-  left: 80%; /* Colocado no lado esquerdo */
+  margin-top: 154%;
+  position: absolute; 
+  left: 80%; 
 
 }
-
-
 
 
 
@@ -1443,9 +1468,9 @@ height: auto;
   font-size: 600%;
   font-family: 'Lobster';
   margin-top: 0;
-  position: absolute; /* Alterado para absolute */
-  top: 340%; /* Colocado no topo */
-  left: 7%; /* Colocado no lado esquerdo */
+  position: absolute; 
+  top: 390%; 
+  left: 7%; 
   color: rgb(26, 26, 26);
 }
 
@@ -1457,33 +1482,143 @@ height: auto;
   font-size: 100%;
   font-weight: 500;
   font-family: Poppins;
-  margin-top: 183%;
-  position: absolute; /* Alterado para absolute */
-  left: 10%; /* Colocado no lado esquerdo */
+  margin-top: 205%;
+  position: absolute; 
+  left: 10%; 
   background-color: #959595;
-
 }
-
 
 .paragrafo-sistemaCms{
 
   font-size: 100%;
   font-family: 'Poppins';
-  margin-top: 187%;
-  position: absolute; /* Alterado para absolute */
-  left: 10%; /* Colocado no lado esquerdo */
+  margin-top: 209%;
+  position: absolute; 
+  left: 10%; 
 
 }
 
 
+/*parte de programacao de apps */
+
+.programacaoDeApps{
+
+  font-size: 600%;
+  font-family: 'Lobster';
+  margin-top: 0;
+  position: absolute; 
+  top: 490%; 
+  left: 7%; 
+  color: rgb(26, 26, 26);
+}
+
+.botao-express{
+
+  color: #000; 
+  text-decoration: none; 
+  border-radius: 100px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 100%;
+  font-weight: 500;
+  font-family: Poppins;
+  margin-top: 255%;
+  position: absolute; 
+  left: 10%; 
+  background-color: #959595;
+}
 
 
+.botao-express:hover {
+  background-color:rgb(18, 230, 75);
+ }
+
+.paragrafo-express{
+
+  font-size: 100%;
+  font-family: 'Poppins';
+  margin-top: 260%;
+  position: absolute; 
+  left: 10%; 
+
+}
+
+.botao-tarefa02{
+
+  color: #000; 
+  text-decoration: none; 
+  border-radius: 100px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 100%;
+  font-weight: 500;
+  font-family: Poppins;
+  margin-top: 255%;
+  position: absolute; 
+  left: 41%; 
+  background-color: #959595;
+}
 
 
+.botao-tarefa02:hover {
+  background-color:rgb(18, 230, 75);
+ }
+
+.paragrafo-tarefa02{
+
+  font-size: 100%;
+  font-family: 'Poppins';
+  margin-top: 260%;
+  position: absolute; 
+  left: 41%; 
+
+}
 
 
+/*parte de testes de sistemas */
+
+.testesDeSistemas{
+
+  font-size: 600%;
+  font-family: 'Lobster';
+  margin-top: 0;
+  position: absolute; 
+  top: 610%; 
+  left: 7%; 
+  color: rgb(26, 26, 26);
+}
+
+.botao-apiPaysandu{
+
+  color: #000; 
+  text-decoration: none; 
+  border-radius: 100px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 100%;
+  font-weight: 500;
+  font-family: Poppins;
+  margin-top: 312.5%;
+  position: absolute; 
+  left: 10%; 
+  background-color: #959595;
+}
 
 
+.botao-apiPaysandu:hover {
+  background-color:rgb(18, 230, 75);
+ }
+
+.paragrafo-apiPaysandu{
+
+  font-size: 100%;
+  font-family: 'Poppins';
+  margin-top: 317%;
+  position: absolute; 
+  left: 10%; 
+  padding-bottom: 10%;
+
+}
 
 /*pgn de escolha */
 
@@ -1491,9 +1626,9 @@ height: auto;
   font-size: 600%;
   font-family: 'Lobster';
   margin-top: 0;
-  position: absolute; /* Alterado para absolute */
-  top: 25%; /* Colocado no topo */
-  left: 7%; /* Colocado no lado esquerdo */
+  position: absolute; 
+  top: 25%; 
+  left: 7%; 
   color: rgb(26, 26, 26);
 }
 
@@ -1506,8 +1641,8 @@ height: auto;
   font-weight: 500;
   font-family: Poppins;
   margin-top: 30%;
-  position: absolute; /* Alterado para absolute */
-  left: 20%; /* Colocado no lado esquerdo */
+  position: absolute; 
+  left: 20%; 
   background-color: #959595;
 
 }
@@ -1516,9 +1651,9 @@ height: auto;
   font-size: 100%;
   font-family: 'Poppins';
   margin-top: 18%;
-  position: absolute; /* Alterado para absolute */
-  top: 45%; /* Colocado no topo */
-  left: 20%; /* Colocado no lado esquerdo */
+  position: absolute; 
+  top: 45%; 
+  left: 20%; 
 
 }
 
@@ -1529,17 +1664,17 @@ height: auto;
   font-size: 600%;
   font-family: 'Lobster';
   margin-top: 0;
-  position: absolute; /* Alterado para absolute */
-  top: 25%; /* Colocado no topo */
-  left: 7%; /* Colocado no lado esquerdo */
+  position: absolute; 
+  top: 25%; 
+  left: 7%; 
   color: rgb(26, 26, 26);
   
 }
 
 .botao-certificadoLinguagensPpe{
 
-  color: #000; /* Define a cor do texto como preto (ou a cor desejada) */
-  text-decoration: none; /* Remove o sublinhado */
+  color: #000; 
+  text-decoration: none; 
   border-radius: 100px;
   border: 1px solid transparent;
   padding: 0.6em 1.2em;
@@ -1547,8 +1682,8 @@ height: auto;
   font-weight: 500;
   font-family: Poppins;
   margin-top: 29%;
-  position: absolute; /* Alterado para absolute */
-  left: 18%; /* Colocado no lado esquerdo */
+  position: absolute; 
+  left: 18%; 
   background-color: #959595;
 }
 
@@ -1561,17 +1696,17 @@ height: auto;
   font-size: 100%;
   font-family: 'Poppins';
   margin-top: 18%;
-  position: absolute; /* Alterado para absolute */
-  top: 45%; /* Colocado no topo */
-  left: 18%; /* Colocado no lado esquerdo */
+  position: absolute; 
+  top: 45%; 
+  left: 18%; 
 
 }
 
 
 .botao-certificadoNaturezaPpe{
 
-  color: #000; /* Define a cor do texto como preto (ou a cor desejada) */
-  text-decoration: none; /* Remove o sublinhado */
+  color: #000; 
+  text-decoration: none; 
   border-radius: 100px;
   border: 1px solid transparent;
   padding: 0.6em 1.2em;
@@ -1579,8 +1714,8 @@ height: auto;
   font-weight: 500;
   font-family: Poppins;
   margin-top: 29%;
-  position: absolute; /* Alterado para absolute */
-  left: 65%; /* Colocado no lado esquerdo */
+  position: absolute; 
+  left: 65%; 
   background-color: #959595;
 }
 
@@ -1593,12 +1728,10 @@ height: auto;
   font-size: 100%;
   font-family: 'Poppins';
   margin-top: 18%;
-  position: absolute; /* Alterado para absolute */
-  top: 45%; /* Colocado no topo */
-  left: 65%; /* Colocado no lado esquerdo */
+  position: absolute; 
+  top: 45%; 
+  left: 65%; 
 }
-
-
 
 
 .loader {
@@ -1867,7 +2000,7 @@ height: auto;
   height: 70px;
   border-radius: 50%;
   margin-top: 0%;
-  margin-right: 10%; /* Adicione margem direita para dar espaçamento entre os ícones */
+  margin-right: 10%;
   background-color: #fff;
   box-shadow: 0px 0px 6px #00000027;
   transition: 0.3s;
@@ -2061,7 +2194,7 @@ height: auto;
   color: #ffda77;
 }
 
-/*Pagina PPE*/
+/*Página PPE*/
 
 .ppe h1 {
   font-size: 150%;

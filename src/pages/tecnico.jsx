@@ -28,6 +28,11 @@ function Tecnico() {
           <button className="botao-trabalhoApi" onClick={() => window.open('/API Trabalho.pdf', '_blank')}>Trabalho API</button>
           <a className="botao-projetoBiblioteca" href=" https://github.com/rafadondee/biblio-front " target="_blank"> Projeto Biblioteca</a>
           <button className="botao-sistemaCms" onClick={() => window.open('/Cópia de Cenario_1 - Atividade 1.pdf', '_blank')}>Sistema CMS</button>
+          <button className="botao-bibliotecaBanco" onClick={() => window.open('/Bancodedados_Biblioteca.pdf', '_blank')}>Biblioteca - Modelo Físico</button>
+          <button className="botao-join" onClick={() => window.open('/Teste inner join.sql', '_blank')}>Left e Right Join</button>
+          <a className="botao-express" href="https://github.com/rafadondee/Express-Teste" target="_blank"> Express</a>
+          <a className="botao-tarefa02" href="https://github.com/rafadondee/Tarefa-02" target="_blank"> Tarefa 02</a>
+          <a className="botao-apiPaysandu" href="https://github.com/rafadondee/api-paysandu" target="_blank"> API Paysandu :) </a>
 
 
         </div>
@@ -39,6 +44,8 @@ function Tecnico() {
       <h2 className='bancoDeDados'> Banco de Dados </h2>
       <h2 className='desenvolvimentoDeSistemas' >Desenvolvimento de Sistemas</h2>
       <h2 className='implantacaoDeSistemas'> Implantação de Sistemas</h2>
+      <h2 className='programacaoDeApps'> Programação de Apps</h2>
+      <h2 className='testesDeSistemas'> Testes de Sistemas</h2>
 
 
       <p className='paragrafo-salaDeAulaInvertida'>Esta atividade do 2° Trimestre <br /> teve como objetivo estudar <br /> um tipo de metodologia <br /> e passar para a turma nossos <br /> conhecimentos adquiridos.  <br />
@@ -51,6 +58,14 @@ function Tecnico() {
  <p className='paragrafo-listaModeloLogico'>Esta atividade do 2° Trimestre <br /> teve como objetivo realizar <br /> uma lista de exercícios do  <br />  modelo lógico, sabendo aplicar <br /> as ideias de relacionamentos <br /> e entidades aprendidas em sala. <br /> Contemplou a H1 e H2.
  </p>
  <p className='paragrafo-normalizacaoDeDados'>Esta atividade do 2° Trimestre <br />  teve como objetivo responder <br /> uma lista com perguntas <br /> sobre normalização de dados, <br /> explicando seus conceitos <br /> e citando exemplos. <br /> Contemplou a H3. </p>
+ <p className='paragrafo-bibliotecaBanco'>Esta atividade do 3° Trimestre <br /> teve como objetivo realizar <br /> uma lista de exercícios do  <br />  modelo físico, sabendo aplicar <br /> as ideias de relacionamentos <br /> e entidades aprendidas em sala. <br /> Contemplou a H4.</p>
+ <p className='paragrafo-join'>Esta atividade do 3° Trimestre <br /> teve como objetivo realizar <br/> a criação de tabelas utilizando os <br /> mecanismos de seleção Left e Right Join. <br />Contemplou a H4 e H5. </p>
+ 
+ <p className='paragrafo-express'>Esta atividade do 3° Trimestre <br /> teve como objetivo realizar <br/> a criação de um sistema <br /> usando o express, um popular <br /> framework web estruturado. </p>
+ <p className='paragrafo-tarefa02'>Esta atividade do 3° Trimestre <br /> teve como objetivo realizar <br/> a criação usando o chalk, <br /> buscando retornar no terminal <br /> o script perguntando o nome  <br />e idade do usuário. <br /> </p>
+
+ 
+ <p className='paragrafo-apiPaysandu'>Esta atividade do 3° Trimestre <br /> teve como objetivo realizar <br/> a criação de uma API única, <br /> mas se baseando na que <br /> o professor passou. <br />Publicada dia 20/09, <br /> foi a atividade mais <br /> divertida dessa matéria.  </p>
 
 
  <p className='paragrafo-calculadoraDeHoras '>Esta atividade do 1° Trimestre <br />  teve como objetivo criar <br /> uma calculadora de horas, <br /> ou seja, um sistema que <br /> realizasse cálculos das <br /> horas e minutos. </p>

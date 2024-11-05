@@ -1,8 +1,5 @@
-// Importa o módulo React do pacote react
 import React from 'react';
-// Importa bootstrap para o projeto
 
-// Importa módulos específicos do pacote react-router-dom
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 // Importa o componente Home da pasta 'pages'
 import Home from './pages/home';
@@ -26,9 +23,9 @@ import Tecnico from './pages/tecnico';
 import Escolha from './pages/escolha';
 // Importa o componente PPE da pasta 'pages'
 import PPE from './pages/ppe';
-// Define a função do componente principal App
+
 function App() {
-  // Retorna a estrutura de roteamento usando o BrowserRouter
+  
   return (
     <Router>
     
@@ -40,9 +37,7 @@ function App() {
         <Route path="/introducao" element={<Introducao />} />
           {/* Rota para a página Contato com o componente associado */}
         <Route path="/contato" element={<Contato />} />
-          {/* Rota para a página Materias com o componente associado */}
         <Route path="/materias" element={<Materias />} />
-          {/* Rota para a página Materias com o componente associado */}
         <Route path="/matematica" element={<Matematica />} />
         <Route path="/natureza" element={<Natureza />} />
         <Route path="/humanas" element={<Humanas />} />
@@ -54,5 +49,5 @@ function App() {
     </Router>
   );
 }
-// Exporta o componente App como padrão
+
 export default App;
