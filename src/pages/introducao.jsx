@@ -5,6 +5,7 @@ import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
+
 function Introducao() {
   const navigate = useNavigate();
 
@@ -37,7 +38,7 @@ function Introducao() {
       </header>
       <a className="titulo-header" href='/'>Rafa</a> 
 
-      <h1 style={{ animation: 'scaleIn 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) forwards' }}>Sobre</h1>
+      <h1 className='h1-introdu' style={{ animation: 'scaleIn 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) forwards' }}>Sobre</h1>
       <h2 className='rotina-h1'>Rotina</h2>
       <p className='titulo1'>Portfólios</p>
       <div className='container3'>
@@ -121,7 +122,6 @@ function Introducao() {
         </table>
       </div>
 
-     
 
       {/* Botão com seta para cima */}
       <button className='botao-flecha' onClick={handleScrollToTop}>
