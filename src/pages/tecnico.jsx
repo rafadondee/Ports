@@ -32,7 +32,7 @@ function Tecnico() {
           <button className="botao-join" onClick={() => window.open('/Teste inner join.sql', '_blank')}>Left e Right Join</button>
           <a className="botao-express" href="https://github.com/rafadondee/Express-Teste" target="_blank"> Express</a>
           <a className="botao-tarefa02" href="https://github.com/rafadondee/Tarefa-02" target="_blank"> Tarefa 02</a>
-          <a className="botao-apiPaysandu" href="https://github.com/rafadondee/api-paysandu" target="_blank"> API Paysandu :) </a>
+          <a className="botao-apiPaysandu" href="https://www.canva.com/design/DAGV55znpDE/Iql2JZEF7PULE4v3ITbtqQ/view?utm_content=DAGV55znpDE&utm_campaign=designshare&utm_medium=link&utm_source=editor" target="_blank"> Testes Atividades</a>
 
 
         </div>
@@ -65,7 +65,7 @@ function Tecnico() {
  <p className='paragrafo-tarefa02'>Esta atividade do 3° Trimestre <br /> teve como objetivo realizar <br/> a criação usando o chalk, <br /> buscando retornar no terminal <br /> o script perguntando o nome  <br />e idade do usuário. <br /> </p>
 
  
- <p className='paragrafo-apiPaysandu'>Esta atividade do 3° Trimestre <br /> teve como objetivo realizar <br/> a criação de uma API única, <br /> mas se baseando na que <br /> o professor passou. <br />Publicada dia 20/09, <br /> foi a atividade mais <br /> divertida dessa matéria.  </p>
+ <p className='paragrafo-apiPaysandu'>Esta atividade do 3° Trimestre <br /> teve como objetivo realizar <br/> uma apresentação que resumia, <br /> todo o conhecimento  <br /> realizado durante esse <br /> período. Abordou diversos <br /> tipos de testes de sistemas.</p>
 
 
  <p className='paragrafo-calculadoraDeHoras '>Esta atividade do 1° Trimestre <br />  teve como objetivo criar <br /> uma calculadora de horas, <br /> ou seja, um sistema que <br /> realizasse cálculos das <br /> horas e minutos. </p>

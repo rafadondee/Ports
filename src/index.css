@@ -117,7 +117,7 @@ button:hover {
 .introducao h2{
   font-size: 600%;
   font-family: 'Lobster';
-  margin-top: 170vh;
+  margin-top: 150vh;
   position: absolute; 
   left: 7%;
   color: rgb(26, 26, 26);
@@ -140,9 +140,9 @@ button:hover {
   animation: appear 1ms ease-in-out;
   animation-timeline: view();
   animation-range: cover 0% cover 50%;
-  margin-top: 10vh;
-}
+  margin-top: 195vh;
 
+}
 
 
 /*h1 dos portfolios*/
@@ -151,7 +151,7 @@ button:hover {
 
   font-size: 600%;
   font-family: 'Lobster';
-  margin-top: 300vh ;
+  margin-top: 280vh ;
   position: absolute; 
   left: 7%; 
   color: rgb(26, 26, 26);
@@ -159,8 +159,10 @@ button:hover {
 
 /* Carrossel */
 .carrossel{
-  margin-top: 500vh;
-  
+  margin-top: 325vh;
+  position: absolute;
+  padding-bottom: 5%;
+
   }
   
   
