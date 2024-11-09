@@ -32,7 +32,7 @@ function Tecnico() {
           <button className="botao-join" onClick={() => window.open('/Teste inner join.sql', '_blank')}>Left e Right Join</button>
           <a className="botao-express" href="https://github.com/rafadondee/Express-Teste" target="_blank"> Express</a>
           <a className="botao-tarefa02" href="https://github.com/rafadondee/Tarefa-02" target="_blank"> Tarefa 02</a>
-          <a className="botao-apiPaysandu" href="https://www.canva.com/design/DAGV55znpDE/Iql2JZEF7PULE4v3ITbtqQ/view?utm_content=DAGV55znpDE&utm_campaign=designshare&utm_medium=link&utm_source=editor" target="_blank"> Testes Atividades</a>
+          <a className="botao-apiPaysandu" href="https://www.canva.com/design/DAGV55znpDE/Iql2JZEF7PULE4v3ITbtqQ/view?utm_content=DAGV55znpDE&utm_campaign=designshare&utm_medium=link&utm_source=editor" target="_blank"> Atividade de Testes</a>
 
 
         </div>
