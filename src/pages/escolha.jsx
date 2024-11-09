@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 
@@ -30,7 +31,7 @@ function Escolha() {
 
      <p className='paragrafo-naturezaEletromagnetismo'>Essa atividade de Ciências da Natureza<br /> teve como objetivo a criação de um<br /> cartaz explicando o magnetismo solar,<br /> terrestre e como e por quê<br /> acontecem as auroras polares.<br />
 Contemplou a habilidade H36. </p>
-<p className='paragrafo-planoEtdn-natu'>Esta atividade de Natureza, <br />  3° Trimestre teve como <br /> objetivo criar um plano <br /> de geração de energia <br /> para alguma região do <br /> Brasil, escolhemos o <br /> Nordeste e utilizamos <br /> energia Nuclear e Eólica. <br /> Contemplou a H34, H35 e H36    </p>
+<p className='paragrafo-planoEtdn-natu'>Esta atividade de Natureza do <br />  3° Trimestre teve como <br /> objetivo criar um plano <br /> de geração de energia <br /> para alguma região do <br /> Brasil, escolhemos o <br /> Nordeste e utilizamos <br /> energia Nuclear e Eólica. <br /> Contemplou a H34, H35 e H36    </p>
 
     </div>
   );

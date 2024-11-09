@@ -21,10 +21,9 @@
 
 .home img {
   position: absolute;
-  top: 30%;
-  right: 10%; 
-  height: 45%;
-  border-radius: 50vh;
+  top: 10%;
+  right: 8%; /* Colocado no lado direito */
+  height: 70%;
 }
  
 
@@ -79,18 +78,18 @@ button:hover {
 
   background-color:  #efeded;  
   height: 50%;
-  padding: 20%; 
-  margin-top: 1vh;
+  padding: 20%; /* Adicione espaçamento interno} */
+   
 
-}
+
 
 .container2 {
 
   background-color:  #efeded;  
   height: 50%;
-  padding: 18%; 
-  margin-top: 50vh;
-  
+  padding: 18%; /* Adicione espaçamento interno */
+  transform: translateY(-140%); /* Move o elemento para cima */
+
 }
 
 
@@ -98,7 +97,8 @@ button:hover {
 
   background-color: #efeded; 
   height: 50%;
-  margin-top: 150%;
+  padding: 30%; /* Adicione espaçamento interno */
+  transform: translateY(240%); /* Move o elemento isolado para cima */
 
 }*/
 
@@ -106,9 +106,10 @@ button:hover {
 .h1-introdu{
   font-size: 600%;
   font-family: 'Lobster';
-  margin-top: 20vh;
-  position: absolute; 
-  left: 7%; 
+  margin-top: 0;
+  position: absolute; /* Alterado para absolute */
+  top: 25%; /* Colocado no topo */
+  left: 7%; /* Colocado no lado esquerdo */
   color: rgb(26, 26, 26);
 
 }
@@ -117,9 +118,10 @@ button:hover {
 .introducao h2{
   font-size: 600%;
   font-family: 'Lobster';
-  margin-top: 150vh;
-  position: absolute; 
-  left: 7%;
+  margin-top: 0;
+  position: absolute; /* Alterado para absolute */
+  top: 165%; /* Colocado no topo */
+  left: 7%; /* Colocado no lado esquerdo */
   color: rgb(26, 26, 26);
 }
 
@@ -151,9 +153,10 @@ button:hover {
 
   font-size: 600%;
   font-family: 'Lobster';
-  margin-top: 280vh ;
-  position: absolute; 
-  left: 7%; 
+  margin-top: 0 ;
+  position: absolute; /* Alterado para absolute */
+  top: 280%; /* Colocado no topo */
+  left: 7%; /* Colocado no lado esquerdo */
   color: rgb(26, 26, 26);
 }
 
@@ -351,6 +354,90 @@ width: 60%;
 height: auto;
 
 }
+
+
+/*Rotina*/
+
+.rotina-h1{
+  transform: translateY(-40%); /* Move o elemento para cima */
+}
+/* styles.css */
+.rotina-table {
+  width: 70%;
+  height: 50%;
+  transform: translateY(-335%); /* Move o elemento para cima */
+  left: 15%;
+  position: absolute;
+  font-size: 110%;
+  font-family: Poppins;
+  border-radius: 1rem;
+  border-collapse: collapse;
+  background-color: #fff;
+
+  border-spacing: 1rem;
+  text-align: center;
+  animation: appear 1ms ease-in-out;
+  animation-timeline: view();
+  animation-range: cover 0% cover 50%;
+
+
+}
+
+
+/* Carrossel */
+.carrossel{
+
+  transform: translateY(270%); /* Move o elemento isolado para cima */
+}
+
+
+.slick-slider {
+  margin-left: 25%; /* Centralizar o carrossel horizontalmente */
+  width: 50%; /* Largura do carrossel */
+  padding-left: -2%; /* Espaçamento à esquerda */
+  transform: translateY(); /* Move o elemento isolado para cima */
+
+  /* Estilos adicionais conforme necessário */
+}
+
+.slick-slide {
+  text-align: center; /* Centralizar conteúdo dentro dos slides */
+  color: #0077b5;
+}
+
+.slick-slide svg {
+  width: 70%; /* Largura máxima do ícone dentro do slide */
+  height: auto; /* Altura automática para manter a proporção */
+
+
+  background-color: #17d314; /* Cor de fundo para o círculo preto */
+  border-radius: 100%; /* Bordas arredondadas para criar um círculo */
+  display: block; /* Garante que o SVG se comporte como um bloco */
+  margin: 0 auto; /* Centralizar o SVG dentro do slide */
+}
+
+
+
+
+
+.slick-prev,
+.slick-next {
+  /* Adicione estilos para os botões de navegação do carrossel */
+  width: 6.5%; /* Definir largura dos botões */
+  height: 9%; /* Definir altura dos botões */
+  background-color: #000000; /* Cor de fundo dos botões */
+  border-radius: 50%; /* Borda arredondada para criar um botão circular */
+}
+
+.slick-prev:hover,
+.slick-next:hover {
+  /* Estilos de hover para os botões de navegação */
+  background-color:rgb(18, 230, 75);
+}
+
+  /* Fim do Carrossel */
+
+
 
 
 /*Capa das matérias*/
@@ -784,113 +871,13 @@ height: auto;
   font-size: 100%;
   font-family: 'Poppins';
   margin-top: 18%;
-  position: absolute; 
-  top: 150%; 
-  left: 45%; 
+  position: absolute; /* Alterado para absolute */
+  top: 150%; /* Colocado no topo */
+  left: 45%; /* Colocado no lado esquerdo */
 
 }
 
-.terceiroTrimestreNatureza {
-  font-size: 600%;
-  font-family: 'Lobster';
-  margin-top: 110%;
-  position: absolute; 
-  left: 7%; 
-  color: rgb(26, 26, 26);
-}
 
-.botao-desequilibrioAmbiental{
-
-
-  color: #000; 
-  text-decoration: none; /* Remove o sublinhado */
-  border-radius: 100px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 100%;
-  font-weight: 500;
-  font-family: Poppins;
-  margin-top: 140%;
-  position: absolute; 
-  left: 15%; 
-  background-color: #959595;
-}
-
-.botao-desequilibrioAmbiental:hover {
-  background-color:rgb(18, 230, 75);
- }
-
-.paragrafo-desequilibrioAmbiental{
-
-  font-size: 100%;
-  font-family: 'Poppins';
-  margin-top: 144%;
-  position: absolute; 
-  left: 15%; 
-  padding-bottom: 10%;
-}
-
-.botao-planoEtdn{
-
-
-  color: #000; 
-  text-decoration: none; /* Remove o sublinhado */
-  border-radius: 100px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 100%;
-  font-weight: 500;
-  font-family: Poppins;
-  margin-top: 140%;
-  position: absolute; 
-  left: 44%; 
-  background-color: #959595;
-}
-
-.botao-planoEtdn:hover {
-  background-color:rgb(18, 230, 75);
- }
-
-.paragrafo-planoEtdn{
-
-  font-size: 100%;
-  font-family: 'Poppins';
-  margin-top: 144%;
-  position: absolute; 
-  left: 44%; 
-  padding-bottom: 10%;
-}
-
-.botao-uranio{
-
-
-  color: #000; 
-  text-decoration: none; /* Remove o sublinhado */
-  border-radius: 100px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 100%;
-  font-weight: 500;
-  font-family: Poppins;
-  margin-top: 140%;
-  position: absolute; 
-  left: 72%; 
-  background-color: #959595;
-}
-
-.botao-uranio:hover {
-  background-color:rgb(18, 230, 75);
- }
-
-.paragrafo-uranio{
-
-  font-size: 100%;
-  font-family: 'Poppins';
-  margin-top: 144%;
-  position: absolute; 
-  left: 72%; 
-  padding-bottom: 10%;
-}
 
 /*Atividades humanas*/
 
@@ -1049,90 +1036,14 @@ height: auto;
   font-size: 100%;
   font-family: 'Poppins';
   margin-top: 18%;
-  position: absolute; 
-  top: 150%; 
-  left: 45%; 
+  position: absolute; /* Alterado para absolute */
+  top: 150%; /* Colocado no topo */
+  left: 45%; /* Colocado no lado esquerdo */
 
 }
 
-.terceiroTrimestreHumanas{
 
-  font-size: 600%;
-  font-family: 'Lobster';
-  margin-top: 0;
-  position: absolute; 
-  top: 250%; 
-  left: 7%; 
-  color: rgb(26, 26, 26);
-}
 
-.botao-novaCapital{
-
-  color: #000; 
-  text-decoration: none; 
-  border-radius: 100px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 100%;
-  font-weight: 500;
-  font-family: Poppins;
-  margin-top: 58%;
-  position: absolute; 
-  top: 180%; 
-  left: 17.5%; 
-  background-color: #959595;
-
- }
-
- .botao-novaCapital:hover {
-  background-color:rgb(18, 230, 75);
- }
-
- .paragrafo-novaCapital{
-
-  font-size: 100%;
-  font-family: 'Poppins';
-  margin-top: 18%;
-  position: absolute; 
-  top: 280%; 
-  left: 15%; 
-  padding-bottom: 10%;
-
-}
-
-.botao-coldWar{
-
-  color: #000; 
-  text-decoration: none; 
-  border-radius: 100px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 100%;
-  font-weight: 500;
-  font-family: Poppins;
-  margin-top: 58%;
-  position: absolute; 
-  top: 180%; 
-  left: 45%; 
-  background-color: #959595;
-
- }
-
- .botao-coldWar:hover {
-  background-color:rgb(18, 230, 75);
- }
-
- .paragrafo-coldWar{
-
-  font-size: 100%;
-  font-family: 'Poppins';
-  margin-top: 18%;
-  position: absolute; 
-  top: 280%; 
-  left: 45%; 
-  padding-bottom: 10%;
-
-}
 
 
 
@@ -1256,107 +1167,13 @@ height: auto;
   font-size: 100%;
   font-family: 'Poppins';
   margin-top: 15%;
-  position: absolute; 
-  top: 150%; 
-  left: 18%; 
+  position: absolute; /* Alterado para absolute */
+  top: 150%; /* Colocado no topo */
+  left: 18%; /* Colocado no lado esquerdo */
 
 }
 
-.terceiroTrimestreLinguagens{
 
-  font-size: 600%;
-  font-family: 'Lobster';
-  margin-top: 0;
-  position: absolute; 
-  top: 235%; 
-  left: 7%; 
-  color: rgb(26, 26, 26);
-}
-
-.botao-notaRedacao-3tri{
-
-  border-radius: 100px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 100%;
-  font-weight: 500;
-  font-family: Poppins;
-  margin-top: 55%;
-  top: 165%; 
-  position: absolute; 
-  left: 10%; 
-  background-color: #959595;
-}
-
-
-.paragrafo-notaRedacao-3tri{
-
-  font-size: 100%;
-  font-family: 'Poppins';
-  margin-top: 15%;
-  position: absolute; 
-  top: 265%; 
-  left: 10%; 
-}
-
-.botao-videoDaily{
-
-  color: #000; 
-  text-decoration: none;
-  border-radius: 100px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 100%;
-  font-weight: 500;
-  font-family: Poppins;
-  margin-top: 131.2%;
-  position: absolute; 
-  left: 42%; 
-  background-color: #959595;
-}
-
-.botao-videoDaily:hover {
-  background-color:rgb(18, 230, 75);
- }
-
-.paragrafo-videoDaily{
-  font-size: 100%;
-  font-family: 'Poppins';
-  margin-top: 13%;
-  position: absolute; 
-  top: 270%; 
-  left: 42%; 
-  padding-bottom: 10%;
-}
-
-.botao-curriculo-atualizado{
-
-  color: #000; 
-  text-decoration: none;
-  border-radius: 100px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 100%;
-  font-weight: 500;
-  font-family: Poppins;
-  margin-top: 131%;
-  position: absolute; 
-  left: 71%; 
-  background-color: #959595;
-}
-
-.botao-curriculo-atualizado:hover {
-  background-color:rgb(18, 230, 75);
- }
-
-.paragrafo-curriculo-atualizado{
-  font-size: 100%;
-  font-family: 'Poppins';
-  margin-top: 136.5%;
-  position: absolute; 
-  left: 71%; 
-  padding-bottom: 10%;
-}
 
 
 /*pgn do técnico */
@@ -1928,44 +1745,11 @@ height: auto;
   font-size: 100%;
   font-family: 'Poppins';
   margin-top: 18%;
-  position: absolute; 
-  top: 45%; 
-  left: 20%; 
+  position: absolute; /* Alterado para absolute */
+  top: 45%; /* Colocado no topo */
+  left: 20%; /* Colocado no lado esquerdo */
 
 }
-
-.botao-planoEtdn-natu{
-
-
-  color: #000; 
-  text-decoration: none; /* Remove o sublinhado */
-  border-radius: 100px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 100%;
-  font-weight: 500;
-  font-family: Poppins;
-  margin-top: 80%;
-  position: absolute; 
-  left: 20%; 
-  background-color: #959595;
-}
-
-.botao-planoEtdn-natu:hover {
-  background-color:rgb(18, 230, 75);
- }
-
-.paragrafo-planoEtdn-natu{
-
-  font-size: 100%;
-  font-family: 'Poppins';
-  margin-top: 85%;
-  position: absolute; 
-  left: 20%; 
-  padding-bottom: 10%;
-}
-
-
 
 /*pgn ppe*/
 
