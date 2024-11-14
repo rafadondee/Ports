@@ -65,7 +65,7 @@ function Tecnico() {
  <p className='paragrafo-tarefa02'>Esta atividade do 3° Trimestre <br /> teve como objetivo realizar <br/> a criação usando o chalk, <br /> buscando retornar no terminal <br /> o script perguntando o nome  <br />e idade do usuário. <br /> </p>
 
  
- <p className='paragrafo-apiPaysandu'>Esta atividade do 3° Trimestre <br /> teve como objetivo realizar <br/> uma apresentação que resumia, <br /> todo o conhecimento  <br /> realizado durante esse <br /> período. Abordou diversos <br /> tipos de testes de sistemas.</p>
+ <p className='paragrafo-apiPaysandu'>Esta atividade do 3° Trimestre <br /> teve como objetivo realizar <br/> uma apresentação que resumia, <br /> todo o conhecimento  <br /> realizado durante esse <br /> período. Abordou diversos <br /> tipos de testes de sistemas. <br /> Envolveu a H1, H2, H3 e H4.</p>
 
 
  <p className='paragrafo-calculadoraDeHoras '>Esta atividade do 1° Trimestre <br />  teve como objetivo criar <br /> uma calculadora de horas, <br /> ou seja, um sistema que <br /> realizasse cálculos das <br /> horas e minutos. </p>
